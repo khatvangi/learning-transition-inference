@@ -1,0 +1,42 @@
+{
+  "type": "web_search_results",
+  "tool": "firecrawl",
+  "query": "mouse rat maze learning individual trial path data repository OSF Zenodo Dryad behavioral",
+  "results": [
+    {
+      "title": "Dryad | Data: Normative behavioral data from the novel One Trail Trace escape reaction task (OTTER)",
+      "url": "https://datadryad.org/dataset/doi:10.5061/dryad.q83bk3jn2",
+      "domain": "datadryad.org",
+      "description": null,
+      "favicon_url": "https://datadryad.org/assets/favicon-9125e048b5ea19f749034c73cfd98ab27ca05da2d223d95395ea80e0836091a3.ico"
+    },
+    {
+      "title": "\n            Renovating the Barnes maze for mouse models of Dementia with STARR FIELD: A 4-day protocol that probes learning rate, retention and cognitive flexibility - PMC\n        ",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11623659/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "description": "Land-based mazes that require spatial cues to identify the location of a hiding-place are a low-stress method to evaluate learning rate and memory retention in mice. One version, the Barnes maze, allows quantification of naturalistic exploratory ...",
+      "favicon_url": "https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png"
+    },
+    {
+      "title": "Data management strategy for a collaborative research center | GigaScience | Oxford Academic",
+      "url": "https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giad049/7218707",
+      "domain": "academic.oup.com",
+      "description": "Abstract. The importance of effective research data management (RDM) strategies to support the generation of Findable, Accessible, Interoperable, and Reusa",
+      "favicon_url": "https://oup.silverchair-cdn.com/UI/app/img/v-639066180923850832/favicon-32x32.png"
+    },
+    {
+      "title": null,
+      "url": "https://openreview.net/pdf?id=NKFxs7UvN9",
+      "domain": "openreview.net",
+      "description": null,
+      "favicon_url": null
+    },
+    {
+      "title": "oss of learning in mice when exposed to rat odor : A water maze study | Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/oss-of-learning-in-mice-when-exposed-to-rat-odor-%3A-Banik-Anand/651aac13ba28a1232853ed5f863a593dbdbf1539",
+      "domain": "www.semanticscholar.org",
+      "description": "The results revealed that rat odor produced amnesia in the mice while mice odor did not affect learning in rats, analyzed by the escape latency time (ELT) in acquition trials and search error in retrieval trials. The study was designed to test the hypothesis if predator stress can affect learning in mice when exposed to rat odor. We investigated the spatial memory performance of Swiss albino mice in a 7 d Morris water maze (MWM) paradigm by exposing them to the odor of predator (Wistar rats). The results revealed that rat odor produced amnesia in the mice while mice odor did not affect learning in rats, analyzed by the escape latency time (ELT) in acquition trials and search error in retrieval trials. Moreover, the memory",
+      "favicon_url": "https://cdn.semanticscholar.org/00dc9154a94e758e/img/favicon-196x196.png"
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+title,url,markdown,author,description,date,image,favicon
+"Dryad | Data: Data for: Zebra finch song ecology: monitoring of breeding, observational transects, focal and year-round acoustic recordings, and a large-scale simultaneous playback experiment",https://datadryad.org/dataset/doi:10.5061/dryad.stqjq2c6s,"# Data for: Zebra finch song ecology: monitoring of breeding, observational transects, focal and year-round acoustic recordings, and a large-scale simultaneous playback experiment
+
+[Loning, Hugo](https://datadryad.org/search?orcid=0000-0003-3845-1053) [1](https://datadryad.org/dataset/doi:10.5061/dryad.stqjq2c6s#aff149) [hugo.loning@wur.nl](mailto:hugo.loning@wur.nl ""hugo.loning@wur.nl"") [ORCID: 0000-0003-3845-1053](https://orcid.org/0000-0003-3845-1053 ""ORCID: 0000-0003-3845-1053""); Verkade, Laura [1](https://datadryad.org/dataset/doi:10.5061/dryad.stqjq2c6s#aff149); Griffith, Simon C. [2](https://datadryad.org/dataset/doi:10.5061/dryad.stqjq2c6s#aff717); Naguib, Marc [1](https://datadryad.org/dataset/doi:10.5061/dryad.stqjq2c6s#aff149)
+
+Author affiliations
+
+1. [Wageningen University & Research](https://datadryad.org/search?org=https%3A%2F%2Fror.org%2F04qw24q55)
+2. [Macquarie University](https://datadryad.org/search?org=https%3A%2F%2Fror.org%2F01sf06y89)
+
+Published Dec 13, 2022; Updated Dec 14, 2022
+on Dryad.
+
+https://doi.org/10.5061/dryad.stqjq2c6s
+
+
+## Data files
+
+Dec 13, 2022 version files6.57 MB
+
+- [breeding\_over\_the\_years\_2016-2020.csv](https://datadryad.org/downloads/file_stream/1978019)
+
+
+
+
+
+
+
+1.99 KB
+
+
+- [focal\_zebbie\_recs\_2018\_contexts.csv](https://datadryad.org/downloads/file_stream/1978020)
+
+
+
+
+
+
+
+58.16 KB
+
+
+- [halfhourly.csv](https://datadryad.org/downloads/file_stream/1978029)
+
+
+
+
+
+
+
+1.28 MB
+
+
+- [nestbox\_recordings\_2016\_breeding.csv](https://datadryad.org/downloads/file_stream/1978021)
+
+
+
+
+
+
+
+2.79 KB
+
+
+- [nestbox\_recordings\_2016\_song\_bouts.csv](https://datadryad.org/downloads/file_stream/1978022)
+
+
+
+
+
+
+
+159.69 KB
+
+
+- [playback\_experiments\_2017.csv](https://datadryad.org/downloads/file_stream/1978023)
+
+
+
+
+
+
+
+28.21 KB
+
+
+- [README.md](https://datadryad.org/downloads/file_stream/1978030)
+
+
+
+19.65 KB
+
+
+- [songmeter\_wavs.csv](https://datadryad.org/downloads/file_stream/1978032)
+
+
+
+
+
+
+
+1.95 MB
+
+
+- [songmeter\_wind\_table.csv](https://datadryad.org/downloads/file_stream/1978024)
+
+
+
+
+
+
+
+2.97 MB
+
+
+- [songmeters\_2018-2019.csv](https://datadryad.org/downloads/file_stream/1978025)
+
+
+
+
+
+
+
+55.08 KB
+
+
+- [transects\_2018-2020.csv](https://datadryad.org/downloads/file_stream/1978026)
+
+
+
+
+
+
+
+38.93 KB
+
+
+
+Click names to download individual filesDownload full dataset
+
+## Abstract
+
+Male songbirds sing to establish territories and to attract mates. However, increasing reports of singing in non-reproductive contexts and by females show that song use is more diverse than previously considered. Therefore, alternative functions of song, such as social cohesion and synchronisation of breeding, by and large were overlooked even in such well-studied species as the zebra finch ( _Taeniopygia guttata_). In these social songbirds only the males sing and pairs breed synchronously in loose colonies following aseasonal rain events in their arid habitat. As males are not territorial, and pairs form long-term monogamous bonds early in life, conventional theory predicts that zebra finches should not sing much at all; yet they do and their song is the focus of hundreds of lab-based studies. We hypothesise that zebra finch song functions to maintain social cohesion and to synchronise breeding. Here we test this idea using data from five years of field studies, including observational transects, focal and year-round audio recordings, and a large-scale playback experiment. We show that zebra finches frequently sing while in groups, that breeding status influences song output at the nest and at aggregations, that they sing year-round, and that they predominantly sing when with their partner, suggesting that song remains important after pair formation. Our playback reveals that song actively features in social aggregations as it attracts conspecifics. Together, these results demonstrate that birdsong has important functions beyond territoriality and mate choice, illustrating its importance in coordination and cohesion of social units within larger societies.
+
+## Methods
+
+This dataset contains data from several collection methods which together give an integrated perspective on wild zebra finch song ecology. The data was collected from 2016 to 2020 in UNSW Fowlers Gap Arid Zone Research Station in New South Wales, Australia, home to a well-studied population of wild zebra finches.
+
+The methods are:
+
+**a) Nest box monitoring**
+
+We routinely checked nest boxes from 2016 to 2020, usually from August till December (in 2020 already from June onwards due to drought-breaking rain), when most breeding activity in this population is observed. We combined the resulting clutches laid with the rainfall data for our field site for 2016 to 2020 from the Australian Bureau of Meteorology.
+
+**b) Observational transects**
+
+In the spring of 2018, 2019 and 2020, we walked 1 km transects to standardise encounters with zebra finches at our field site. During these transects, for every zebra finch observation we scored the group size and presence of song.
+
+**c) Focal, hand-held acoustic recordings**
+
+In 2018, we opportunistically recorded wild zebra finch songs using directional microphones. Afterwards, using spectrograms made in Audacity, we scored for each recorded song which individual produced it and the specific social context in which it was produced.
+
+**d) Acoustic recordings at active nest boxes**
+
+In 2016, we installed time-programmable audio recorders near 63 active nest boxes, in various stages of breeding. We analysed one day (it was 26th October) from each nest using Audacity to score the start and end times of each singing bout, while also noting the quality (low, medium or high) as an indication of distance from the nest. We attributed each song to an individual by comparing spectrograms. We also assigned an owner for each nest based on song output and quality. For each nest, we had the breeding stage due to nest monitoring.
+
+**e) Year-round acoustic recording at activity hotspots**
+
+We placed time-programmable audio recorders (Song Meters 3 and 4, Wildlife Acoustics) that were active from sunrise to sunset every four days. For sound analysis, we selected the day of the month with the lowest average wind speeds per month for October 2018 – October 2019. We obtained these low wind days using a python script to link the recording timestamps to the half-hourly wind speed data from the local weather station (Australian Bureau of Meteorology) with the half hour closest to the start time of the recording used as indication of wind speed for that recording. Then, we calculated the average wind speed on the recording days and selected the day of the month with the lowest average wind speeds. We selected the four recorders on which we expected the highest chance of obtaining zebra finch activity, which were situated at feeders (3x) and an artificial water site (1x). Using sound spectrograms in Audacity we scored per 1-hour recording the presence of song and the vocal activity level, which considers that zebra finches regularly vocalise. This activity score was a 0 – 4 Likert-scale resembling the amount of vocal activity (0: no activity, 1: quiet overall, < 5 min of vocalisations, 2: not busy, 5 - 15 min, 3: quite busy, 15 - 30 min, 4: very busy, > 30 min). We also scored whether we heard any calls (less precise than the activity score) or zebra finches flying over (flying zebra finches do not sing).
+
+**f) Playback experiments which were filmed**
+
+We conducted a large-scale playback experiment from the 5th to 10th October 2017 that consisted of automated simultaneous playbacks with three treatments: zebra finch song, nightingale song (heterospecific control) and silence (additional control). Playback setups consisted of a nest box attached to a steel post next to a tree where a loudspeaker was placed. To control for local variation in zebra finch presence, treatments were organised in triplets (N = 23), with the three simultaneous treatments in the same general location. On a given day three or four triplet experiments were conducted at the same time in different areas of the study site, resulting in a total of 23 sites, of which 19 received visits by zebra finches. Played sound files consisted of two minutes of either zebra finch or nightingale song followed by 13 minutes of silence, resulting in a 15-minute loop playback. Playback experiments started between 06:45 and 10:05 in the morning and lasted about 7.5 hours. All treatments were filmed continuously and we scored the videos by noting the timestamp for all visits to the bush or nest box. We also scored foraging movements (birds only on the ground) or visits that happened after there were already birds present (these visitors might have been attracted by the birds instead of the playback). We also scored the sex and group size (pair or flock) of arriving birds. Additionally, we scored whether arriving males were singing although this was not always possible. We calculated for each arrival the visit latency, that is, how many seconds passed since the playback ended, scoring a zero if the visit was during playback.
+
+For further details on how the data was collected, we refer to the (open access) related article.
+
+## Usage notes
+
+All the uploaded datasets are csv files. The readme contains information on datasets and software, but the (open-source) software elements (R 4.1.1 analysis script; python 3.7.0 script linking wind speeds to audio files) are uploaded to Zenodo.
+
+## Works referencing this dataset
+
+- Loning, Hugo; Verkade, Laura; Griffith, Simon C.; Naguib, Marc (2022), Data for: Zebra finch song ecology: monitoring of breeding, observational transects, focal and year-round acoustic recordings, and a large-scale simultaneous playback experiment, , Article, [https://doi.org/10.5281/zenodo.7331327](https://doi.org/10.5281/zenodo.7331327)
+- Loning, Hugo; Verkade, Laura; Griffith, Simon C.; Naguib, Marc (2022), Data for: Zebra finch song ecology: monitoring of breeding, observational transects, focal and year-round acoustic recordings, and a large-scale simultaneous playback experiment, , Article, [https://doi.org/10.5281/zenodo.7331326](https://doi.org/10.5281/zenodo.7331326)
+- Loning, Hugo; Verkade, Laura; Griffith, Simon C.; Naguib, Marc (2023), The social role of song in wild zebra finches, Current Biology, Journal-article, [https://doi.org/10.1016/j.cub.2022.11.047](https://doi.org/10.1016/j.cub.2022.11.047)
+
+YesNo",,,,,https://datadryad.org/assets/favicon-9125e048b5ea19f749034c73cfd98ab27ca05da2d223d95395ea80e0836091a3.ico
+Item - Zebra finch song stimuli - figshare - Figshare,https://figshare.com/articles/media/Zebra_finch_song_stimuli/13438109,"# Zebra finch song stimuli
+
+Expand
+
+- [https://doi.org/10.6084/m9.figshare.13438109](https://doi.org/10.6084/m9.figshare.13438109)
+
+
+
+
+
+Copy identifier URL to clipboardIdentifier Info
+
+
+Cite [Download all(4.75 MB)](https://figshare.com/ndownloader/articles/13438109/versions/1) ShareEmbed
+
+media
+
+posted on2020-12-23, 18:26authored by[Dan MelizaDan Meliza](https://figshare.com/authors/Dan_Meliza/9872549), Margot C. Bjoring
+
+Songs of male zebra finches (<i>Taeniopygia guttata) </i>used as stimuli for neural recordings and simulations. All animal use was performed in accordance with the Institutional Animal Care and Use Committee of the University of Virginia. Adult zebra finches were obtained from the Meliza Lab breeding colony at the University of Virginia. During recording, zebra finches were housed in a soundproof auditory isolation box (Eckel Industries, Cambridge, MA) with ad libitum food and water and were kept on a 16:8h light:dark schedule. A mirror was added to the box to stimulate singing. Recordings were made with an Audio-Technica Pro 70 microphone, digitized with a Focusrite Scarlett 2i2 at 44.1 kHz, and stored to disk using custom C++ software (https://github.com/melizalab/jill; version 2.1.4). A typical recording session lasted 2–3 days. A single representative song was selected from each bird’s recorded corpus and was high-pass filtered at 500Hz with a 4th-order Butterworth filter.
+
+## Funding
+
+### Thomas F. and Kate Miller Jeffress Memorial Trust, Bank of America, N.A., Trustee (to CDM)
+
+### National Science Foundation Graduate Research Fellowship Program (to Margot Bjoring)
+
+## History
+
+## Related Materials
+
+1. 1\.
+DOI - References [https://doi.org/10.1371/journal.pcbi.1006723](https://doi.org/10.1371/journal.pcbi.1006723)
+
+
+## [Usage metrics](https://info.figshare.com/user-guide/usage-metrics-and-statistics/)
+
+**0**
+
+**0**
+
+**0**
+
+## Categories
+
+- [Animal behaviour](https://figshare.com/search?q=:category:%20%22Animal%20behaviour%22)
+
+## Keywords
+
+[acoustic recording](https://figshare.com/search?q=:keyword:%20%22acoustic%20recording%22) [zebra finch](https://figshare.com/search?q=:keyword:%20%22zebra%20finch%22) [birdsong](https://figshare.com/search?q=:keyword:%20%22birdsong%22) [Animal Behaviour](https://figshare.com/search?q=:keyword:%20%22Animal%20Behaviour%22)
+
+## Licence
+
+[![CC BY 4.0](https://s3-eu-west-1.amazonaws.com/staticfigassets/images/CC-BY.png)CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+## Exports
+
+Select an option
+
+RefWorksRefWorks
+
+BibTeXBibTeX
+
+Ref. managerRef. manager
+
+EndnoteEndnote
+
+DataCiteDataCite
+
+NLMNLM
+
+DCDC",,"Zebra finch song stimuli, Songs of male zebra finches (Taeniopygia guttata) used as stimuli for neural recordings and simulations. All animal use was performed in accordance with the Institutional Animal Care and Use Committee of the University of Virginia. Adult zebra finches were obtained from the Meliza Lab breeding colony at the University of Virginia. During recording, zebra finches were housed in a soundproof auditory isolation box (Eckel Industries, Cambridge, MA) with ad libitum food and water and were kept on a 16:8h light:dark schedule. A mirror was added to the box to stimulate singing. Recordings were made with an Audio-Technica Pro 70 microphone, digitized with a Focusrite Scarlett 2i2 at 44.1 kHz, and stored to disk using custom C++ software (https://github.com/melizalab/jill; version 2.1.4). A typical recording session lasted 2–3 days. A single representative song was selected from each bird’s recorded corpus and was high-pass filtered at 500Hz with a 4th-order Butterworth filter.",,,https://websitev3-p-eu.figstatic.com/assets-v3/97a584d494444650f01c8ba85b077c4f7938fbce/static/media/favicon-16.658d1490.png
+Dryad | Data: Zebra finch song and distance call amplitude measurements: A transmission experiment and observational transects in the natural environment,https://datadryad.org/dataset/doi:10.5061/dryad.xgxd254h9,"# Zebra finch song and distance call amplitude measurements: A transmission experiment and observational transects in the natural environment
+
+[Loning, Hugo](https://datadryad.org/search?orcid=0000-0003-3845-1053) [1](https://datadryad.org/dataset/doi:10.5061/dryad.xgxd254h9#aff149) [hugo.loning@wur.nl](mailto:hugo.loning@wur.nl ""hugo.loning@wur.nl"") [ORCID: 0000-0003-3845-1053](https://orcid.org/0000-0003-3845-1053 ""ORCID: 0000-0003-3845-1053""); Griffith, Simon C. [2](https://datadryad.org/dataset/doi:10.5061/dryad.xgxd254h9#aff717); Naguib, Marc [1](https://datadryad.org/dataset/doi:10.5061/dryad.xgxd254h9#aff149)
+
+Author affiliations
+
+1. [Wageningen University & Research](https://datadryad.org/search?org=https%3A%2F%2Fror.org%2F04qw24q55)
+2. [Macquarie University](https://datadryad.org/search?org=https%3A%2F%2Fror.org%2F01sf06y89)
+
+Published Sep 14, 2021
+on Dryad.
+
+https://doi.org/10.5061/dryad.xgxd254h9
+
+
+## Data files
+
+Sep 14, 2021 version files62.34 MB
+
+- [Fig3\_Okanoya\_Dooling\_1987.csv](https://datadryad.org/downloads/file_stream/1009372)
+
+
+
+
+
+
+
+97 B
+
+
+- [noisy\_transmission\_exp\_observations.csv](https://datadryad.org/downloads/file_stream/1009355)
+
+
+
+
+
+
+
+4.27 KB
+
+
+- [processed\_bandpassed\_vocalisations.csv](https://datadryad.org/downloads/file_stream/1009356)
+
+
+
+
+
+
+
+38.32 MB
+
+
+- [processed\_calibrated\_recordings\_dataset.csv](https://datadryad.org/downloads/file_stream/1009357)
+
+
+
+
+
+
+
+114.33 KB
+
+
+- [raw\_bandpassed\_vocalisations.csv](https://datadryad.org/downloads/file_stream/1009358)
+
+
+
+
+
+
+
+23.66 MB
+
+
+- [raw\_calibrated\_recordings\_dataset.xlsx](https://datadryad.org/downloads/file_stream/1009359)
+
+
+
+191.22 KB
+
+
+- [README\_Loning\_Griffith\_Naguib\_BehEco2021.txt](https://datadryad.org/downloads/file_stream/1009371)
+
+
+
+
+
+
+
+5.30 KB
+
+
+- [transect\_calibration.csv](https://datadryad.org/downloads/file_stream/1009360)
+
+
+
+
+
+
+
+393 B
+
+
+- [transect\_dataset.csv](https://datadryad.org/downloads/file_stream/1009361)
+
+
+
+
+
+
+
+23.98 KB
+
+
+- [transmission\_experiment\_full\_model\_extrapolation.xlsx](https://datadryad.org/downloads/file_stream/1009362)
+
+
+
+22.63 KB
+
+
+
+Click names to download individual filesDownload full dataset
+
+## Abstract
+
+Birdsong is typically seen as a long-range signal functioning in mate attraction and territory defense. Among birds, the zebra finch is the prime model organism in bioacoustics, yet almost exclusively studied in the lab. In the wild, however, zebra finch song differs strikingly from songbirds commonly studied in the wild as zebra finch males sing most after mating and in the absence of territoriality. Using data from the wild, we here provide an ecological context for a wealth of laboratory studies. By integrating calibrated sound recordings, sound transmission experiments and social ecology of zebra finches in the wild with insights from hearing physiology we show that wild zebra finch song is a very short-range signal with an audible range of about nine meters and that even the louder distance calls do not carry much farther (up to about fourteen meters). These integrated findings provide an ecological context for the interpretation of laboratory studies of this species and indicate that the vocal communication distance of the main laboratory species for avian acoustics contrasts strikingly with songbirds that use their song as a long-range advertisement signal.
+
+## Methods
+
+This dataset contains data from three studies which together give an integrated perspective on wild zebra finch communication distance. The data was collected in UNSW Fowlers Gap Arid Zone Research Station in New South Wales, Australia, home to a well-studied population of wild zebra finches.
+
+The three parts are:
+
+a) Calibrated recordings of wild zebra finch songs and distance calls, conducted in 2018. This dataset contains root mean square measurements of the loudest 125 ms of zebra finch song motifs and (male and female) distance calls.
+
+b) A transmission experiment of zebra finch song and distance calls in the natural environment, conducted in 2018. This dataset contains root mean square measurements of the loudest 125 ms of transmitted zebra finch song and distance calls (broadcasted at average natural amplitude as determined in part a), which were bandpass filtered based on bird hearing and compared with zebra finch hearing curves. The vocalisations were re-recorded at 1, 2, 4, 8, 16, 32, 64, 128 and 256 m in several different transects that represent a range of zebra finch habitats in our study site (from quite barren to relatively shrubby). We also included the Matlab script (on linked Zenodo) that we used to analyse our recordings which can be relatively easily adapted to analyse one's own transmission experiment in the same way.
+
+c) Observational transects during which zebra finch group size and song presence was scored, conducted in 2018 and 2019. This dataset contains annotated gps points, which we used to give ecological context to the previous two parts (a and b).
+
+For further details on how the data was collected, we refer to the (open access) related article.
+
+## Usage notes
+
+We included a readme file which contains explanations on all files that are part of this dataset, e.g. which are the raw datasets, which are the processed ones, and which are the files to process raw into processed files. The readme contains information on all elements, but the software elements (R, python and Matlab code) are uploaded to Zenodo.
+
+For the calibrated recordings, if a measurement is from a non-focal individual, this measurement is likely not accurate enough, which is why we omitted it in our manuscript. Please do not use our non-focal individuals for drawing conclusions on vocalisation amplitude.
+
+## Works referencing this dataset
+
+- Loning, Hugo; Griffith, Simon C.; Naguib, Marc (2021), Zebra finch song and distance call amplitude measurements: A transmission experiment and observational transects in the natural environment, , Article, [https://doi.org/10.5281/zenodo.5507028](https://doi.org/10.5281/zenodo.5507028)
+- Loning, Hugo; Griffith, Simon C.; Naguib, Marc (2021), Zebra finch song and distance call amplitude measurements: A transmission experiment and observational transects in the natural environment, , Article, [https://doi.org/10.5281/zenodo.5507027](https://doi.org/10.5281/zenodo.5507027)
+- Loning, Hugo; Griffith, Simon C; Naguib, Marc (2021), Zebra finch song is a very short-range signal in the wild: evidence from an integrated approach, Behavioral Ecology, Journal-article, [https://doi.org/10.1093/beheco/arab107](https://doi.org/10.1093/beheco/arab107)
+
+YesNo",,,,,https://datadryad.org/assets/favicon-9125e048b5ea19f749034c73cfd98ab27ca05da2d223d95395ea80e0836091a3.ico
+GitHub - maRce10/acoustic-fine-features-zebra-finch: spotting and measuring fine acoustic structure in zebra finch songs · GitHub,https://github.com/maRce10/acoustic-fine-features-zebra-finch,"[Skip to content](https://github.com/maRce10/acoustic-fine-features-zebra-finch#start-of-content)
+
+You signed in with another tab or window. [Reload](https://github.com/maRce10/acoustic-fine-features-zebra-finch) to refresh your session.You signed out in another tab or window. [Reload](https://github.com/maRce10/acoustic-fine-features-zebra-finch) to refresh your session.You switched accounts on another tab or window. [Reload](https://github.com/maRce10/acoustic-fine-features-zebra-finch) to refresh your session.Dismiss alert
+
+{{ message }}
+
+[maRce10](https://github.com/maRce10)/ **[acoustic-fine-features-zebra-finch](https://github.com/maRce10/acoustic-fine-features-zebra-finch)** Public
+
+- [Notifications](https://github.com/login?return_to=%2FmaRce10%2Facoustic-fine-features-zebra-finch) You must be signed in to change notification settings
+- [Fork\\
+0](https://github.com/login?return_to=%2FmaRce10%2Facoustic-fine-features-zebra-finch)
+- [Star\\
+0](https://github.com/login?return_to=%2FmaRce10%2Facoustic-fine-features-zebra-finch)
+
+
+master
+
+[**1** Branch](https://github.com/maRce10/acoustic-fine-features-zebra-finch/branches) [**0** Tags](https://github.com/maRce10/acoustic-fine-features-zebra-finch/tags)
+
+[Go to Branches page](https://github.com/maRce10/acoustic-fine-features-zebra-finch/branches)[Go to Tags page](https://github.com/maRce10/acoustic-fine-features-zebra-finch/tags)
+
+Go to file
+
+Code
+
+Open more actions menu
+
+## Folders and files
+
+| Name | Name | Last commit message | Last commit date |
+| --- | --- | --- | --- |
+| ## Latest commit<br>[![maRce10](https://avatars.githubusercontent.com/u/13245502?v=4&size=40)](https://github.com/maRce10)[maRce10](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commits?author=maRce10)<br>[first draft](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/b8deadcd8d8c94c2ce9ce5c68efb24ebf536067b)<br>9 months agoJun 10, 2025<br>[b8deadc](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/b8deadcd8d8c94c2ce9ce5c68efb24ebf536067b) · 9 months agoJun 10, 2025<br>## History<br>[7 Commits](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commits/master/) <br>Open commit details<br>[View commit history for this file.](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commits/master/) 7 Commits |
+| [data](https://github.com/maRce10/acoustic-fine-features-zebra-finch/tree/master/data ""data"") | [data](https://github.com/maRce10/acoustic-fine-features-zebra-finch/tree/master/data ""data"") | [first draft](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/b8deadcd8d8c94c2ce9ce5c68efb24ebf536067b ""first draft"") | 9 months agoJun 10, 2025 |
+| [manuscript](https://github.com/maRce10/acoustic-fine-features-zebra-finch/tree/master/manuscript ""manuscript"") | [manuscript](https://github.com/maRce10/acoustic-fine-features-zebra-finch/tree/master/manuscript ""manuscript"") | [first commit](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/7a37898c147cbedb1f918aa3050fabd5e440b810 ""first commit"") | 3 years agoJan 31, 2023 |
+| [output](https://github.com/maRce10/acoustic-fine-features-zebra-finch/tree/master/output ""output"") | [output](https://github.com/maRce10/acoustic-fine-features-zebra-finch/tree/master/output ""output"") | [first draft](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/b8deadcd8d8c94c2ce9ce5c68efb24ebf536067b ""first draft"") | 9 months agoJun 10, 2025 |
+| [scripts](https://github.com/maRce10/acoustic-fine-features-zebra-finch/tree/master/scripts ""scripts"") | [scripts](https://github.com/maRce10/acoustic-fine-features-zebra-finch/tree/master/scripts ""scripts"") | [first draft](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/b8deadcd8d8c94c2ce9ce5c68efb24ebf536067b ""first draft"") | 9 months agoJun 10, 2025 |
+| [.gitignore](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/.gitignore "".gitignore"") | [.gitignore](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/.gitignore "".gitignore"") | [first draft](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/b8deadcd8d8c94c2ce9ce5c68efb24ebf536067b ""first draft"") | 9 months agoJun 10, 2025 |
+| [README.Rmd](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/README.Rmd ""README.Rmd"") | [README.Rmd](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/README.Rmd ""README.Rmd"") | [first commit?](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/80158710b28f0fd71f29b746f87805b75ec2c385 ""first commit?"") | 3 years agoJul 12, 2023 |
+| [README.md](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/README.md ""README.md"") | [README.md](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/README.md ""README.md"") | [first commit?](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/80158710b28f0fd71f29b746f87805b75ec2c385 ""first commit?"") | 3 years agoJul 12, 2023 |
+| [acoustic\_fine\_features\_zebra\_finch.Rproj](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/acoustic_fine_features_zebra_finch.Rproj ""acoustic_fine_features_zebra_finch.Rproj"") | [acoustic\_fine\_features\_zebra\_finch.Rproj](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/acoustic_fine_features_zebra_finch.Rproj ""acoustic_fine_features_zebra_finch.Rproj"") | [first draft](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/b8deadcd8d8c94c2ce9ce5c68efb24ebf536067b ""first draft"") | 9 months agoJun 10, 2025 |
+| [animation.gif](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/animation.gif ""animation.gif"") | [animation.gif](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/animation.gif ""animation.gif"") | [first draft](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/b8deadcd8d8c94c2ce9ce5c68efb24ebf536067b ""first draft"") | 9 months agoJun 10, 2025 |
+| [dtw\_distance\_schroeder\_sample\_degradation\_experiment\_by\_distance.RDS](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/dtw_distance_schroeder_sample_degradation_experiment_by_distance.RDS ""dtw_distance_schroeder_sample_degradation_experiment_by_distance.RDS"") | [dtw\_distance\_schroeder\_sample\_degradation\_experiment\_by\_distance.RDS](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/dtw_distance_schroeder_sample_degradation_experiment_by_distance.RDS ""dtw_distance_schroeder_sample_degradation_experiment_by_distance.RDS"") | [commit](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/114e83f8908e11b1bd2b312d7bb5ec22ba3454af ""commit"") | 3 years agoNov 24, 2023 |
+| [sliding\_window\_waveform.gif](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/sliding_window_waveform.gif ""sliding_window_waveform.gif"") | [sliding\_window\_waveform.gif](https://github.com/maRce10/acoustic-fine-features-zebra-finch/blob/master/sliding_window_waveform.gif ""sliding_window_waveform.gif"") | [first draft](https://github.com/maRce10/acoustic-fine-features-zebra-finch/commit/b8deadcd8d8c94c2ce9ce5c68efb24ebf536067b ""first draft"") | 9 months agoJun 10, 2025 |
+| View all files |
+
+## Repository files navigation
+
+# Fine acoustic features in zebra finch vocalizations
+
+[Permalink: Fine acoustic features in zebra finch vocalizations](https://github.com/maRce10/acoustic-fine-features-zebra-finch#fine-acoustic-features-in-zebra-finch-vocalizations)
+
+Marcelo Araya-Salas
+2023-07-11
+
+Compare methods for measuring fine scale structural variation and
+periodicity in schroeders
+
+_Updated on 2023-07-11 18:26:45_
+
+## Table of contents
+
+[Permalink: Table of contents](https://github.com/maRce10/acoustic-fine-features-zebra-finch#table-of-contents)
+
+- [General info](https://github.com/maRce10/acoustic-fine-features-zebra-finch#general-info)
+  - [Analyses](https://github.com/maRce10/acoustic-fine-features-zebra-finch#Analyses)
+    - [To do list](https://github.com/maRce10/acoustic-fine-features-zebra-finch#to-do-list)
+      - [Contact](https://github.com/maRce10/acoustic-fine-features-zebra-finch#contact)
+
+## General info
+
+[Permalink: General info](https://github.com/maRce10/acoustic-fine-features-zebra-finch#general-info)
+
+Quantify fine scale structural variation and periodicity in schroeders
+
+## Analysis
+
+[Permalink: Analysis](https://github.com/maRce10/acoustic-fine-features-zebra-finch#analysis)
+
+- [Schroeder analysis](https://rpubs.com/marcelo-araya-salas/1061961)
+
+## In progress
+
+[Permalink: In progress](https://github.com/maRce10/acoustic-fine-features-zebra-finch#in-progress)
+
+- Statistical analysis
+
+## To-do list
+
+[Permalink: To-do list](https://github.com/maRce10/acoustic-fine-features-zebra-finch#to-do-list)
+
+- Writing results
+
+## Status
+
+[Permalink: Status](https://github.com/maRce10/acoustic-fine-features-zebra-finch#status)
+
+Project is: _in progress_
+
+## Contact
+
+[Permalink: Contact](https://github.com/maRce10/acoustic-fine-features-zebra-finch#contact)
+
+Created by [Marcelo Araya-Salas](https://marce10.github.io/)
+
+## About
+
+spotting and measuring fine acoustic structure in zebra finch songs
+
+
+### Resources
+
+[Readme](https://github.com/maRce10/acoustic-fine-features-zebra-finch#readme-ov-file)
+
+### Uh oh!
+
+There was an error while loading. [Please reload this page](https://github.com/maRce10/acoustic-fine-features-zebra-finch).
+
+[Activity](https://github.com/maRce10/acoustic-fine-features-zebra-finch/activity)
+
+### Stars
+
+[**0**\\
+stars](https://github.com/maRce10/acoustic-fine-features-zebra-finch/stargazers)
+
+### Watchers
+
+[**1**\\
+watching](https://github.com/maRce10/acoustic-fine-features-zebra-finch/watchers)
+
+### Forks
+
+[**0**\\
+forks](https://github.com/maRce10/acoustic-fine-features-zebra-finch/forks)
+
+[Report repository](https://github.com/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FmaRce10%2Facoustic-fine-features-zebra-finch&report=maRce10+%28user%29)
+
+## [Releases](https://github.com/maRce10/acoustic-fine-features-zebra-finch/releases)
+
+No releases published
+
+## [Packages\  0](https://github.com/users/maRce10/packages?repo_name=acoustic-fine-features-zebra-finch)
+
+No packages published
+
+## [Contributors\  1](https://github.com/maRce10/acoustic-fine-features-zebra-finch/graphs/contributors)
+
+- [![@maRce10](https://avatars.githubusercontent.com/u/13245502?s=64&v=4)](https://github.com/maRce10)[**maRce10** Marcelo Araya-Salas](https://github.com/maRce10)
+
+## Languages
+
+- [HTML99.4%](https://github.com/maRce10/acoustic-fine-features-zebra-finch/search?l=html)
+- Other0.6%
+
+You can’t perform that action at this time.",,spotting and measuring fine acoustic structure in zebra finch songs - maRce10/acoustic-fine-features-zebra-finch,,https://opengraph.githubassets.com/467780f0517059738b835a75270da60b5bc32107140197fa2fdf66420d400937/maRce10/acoustic-fine-features-zebra-finch,https://github.githubassets.com/favicons/favicon.svg
+"Item - Raw birdsong data for ""Vocal changes in a zebra finch model of Parkinson’s Disease characterized by alpha-synuclein overexpression in the song-dedicated anterior forebrain pathway"" - University of Arizona - Figshare",https://arizona.figshare.com/articles/dataset/Raw_birdsong_data_for_Vocal_changes_in_a_zebra_finch_model_of_Parkinson_s_Disease_characterized_by_alpha-synuclein_overexpression_in_the_song-dedicated_anterior_forebrain_pathway_/16619782,"# Raw birdsong data for ""Vocal changes in a zebra finch model of Parkinson’s Disease characterized by alpha-synuclein overexpression in the song-dedicated anterior forebrain pathway""
+
+Expand
+
+- [https://doi.org/10.25422/azu.data.16619782](https://doi.org/10.25422/azu.data.16619782)
+
+
+
+
+
+Copy identifier URL to clipboardIdentifier Info
+
+
+Cite [Download all(29.83 GB)](https://arizona.figshare.com/ndownloader/articles/16619782/versions/1) ShareEmbed
+
+dataset
+
+posted on2022-03-09, 20:38authored byCesar A. Medina, Eddie Vargas, Stephanie Munger, [Julie Elizabeth MillerJulie Elizabeth Miller](https://arizona.figshare.com/authors/Julie_Elizabeth_Miller/8578182)
+
+Parkinson's disease is the second most common neurodegenerative disease affecting motor behavior. In addition to the typical peripheral limb motor symptoms, vocal motor issues such as deteriorated vocal quality are present in Parkinson's patients. Unfortunately, very little is known about the biological mechanisms underlying these vocal changes. Here, we developed a Parkinsonian model using the zebra finch songbird to study the underlying neural mechanisms of these changes. Finch song and supportive brain areas are similar to human speech and brain pathways. To do this, we recorded song for 2 hours from zebra finches injected with an adeno-associated virus expressing either the causally-related human Parkinsonian gene SNCA or control GFP protein in finch brain. Song was then segmented using a specially designed matlab program called Vocal Inventory Clustering Engine (VoICE) into unique syllables. Acoustic features such as duration, pitch, mean frequency, amplitude, Wiener Entropy, frequency modulation, and amplitude modulation were measured from 75 individual copies of these syllables. The mean, mean variance, and coefficient of variation of these syllables were also measured. Motif-level data was also collected to monitor how much each bird sang (i.e., how many copies of song were uttered over a 2 hour period). We found that overexpression of SNCA led to shorter and poorer quality syllables that are similar to Parkinsonian vocal changes.<div><br></div><div><div><br></div><div>To cite this work, please cite both the associated PLoS One paper ""<a href=""https://doi.org/10.1371/journal.pone.0265604"">Vocal changes in a zebra finch model of Parkinson’s Disease characterized by alpha-synuclein overexpression in the song-dedicated anterior forebrain pathway</a>"" and this dataset.</div><div><br></div><div><hr></div><div><i><br></i></div><div><i>For inquiries regarding the contents of this dataset, please contact the Corresponding Author listed in the README.txt file. Administrative inquiries (e.g., removal requests, trouble downloading, etc.) can be directed to data-management@arizona.edu</i></div></div>
+
+## Funding
+
+### Parkinson's and Movement Disorder Foundation (J.E. Miller)
+
+### University of Arizona BIO5 Institute Accelerate for Success (J.E. Miller)
+
+### University of Arizona Core Facilities Pilot Program (J.E. Miller)
+
+### University of Arizona Departments of Neuroscience and Speech, Language, and Hearing Sciences (J.E. Miller)
+
+### National Science Foundation Graduate Research Fellowship Program (GRFP, NSF \#DGE-1746060 - C.A. Medina)
+
+### University of Arizona's Initiative for Maximizing Student Development (NIH Grant \# R25 GM 062584 - C.A. Medina)
+
+### University of Arizona Marshall Foundation Dissertation Scholarship (C.A. Medina)
+
+### University of Arizona Undergraduate Biology Research Program (E. Vargas)
+
+### University of Arizona Border Latino and American Indian Summer Exposure to Research Program (E. Vargas)
+
+### University of Arizona Neuroscience and Cognitive Science Program (E. Vargas)
+
+### University of Arizona Honors College Thesis Research Award (E. Vargas)
+
+### National Institute of Neurological Disorders and Stroke of the National Institutes of Health under Award Number R21NS123512 to J.E. Miller. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health.
+
+## History
+
+## Related Materials
+
+1. 1\.
+DOI -",,"Raw birdsong data for ""Vocal changes in a zebra finch model of Parkinson’s Disease characterized by alpha-synuclein overexpression in the song-dedicated anterior forebrain pathway"", Parkinson's disease is the second most common neurodegenerative disease affecting motor behavior. In addition to the typical peripheral limb motor symptoms, vocal motor issues such as deteriorated vocal quality are present in Parkinson's patients. Unfortunately, very little is known about the biological mechanisms underlying these vocal changes. Here, we developed a Parkinsonian model using the zebra finch songbird to study the underlying neural mechanisms of these changes. Finch song and supportive brain areas are similar to human speech and brain pathways. To do this, we recorded song for 2 hours from zebra finches injected with an adeno-associated virus expressing either the causally-related human Parkinsonian gene SNCA or control GFP protein in finch brain. Song was then segmented using a specially designed matlab program called Vocal Inventory Clustering Engine (VoICE) into unique syllables. Acoustic features such as duration, pitch, mean frequency, amplitude, Wiener Entropy, frequency modulation, and amplitude modulation were measured from 75 individual copies of these syllables. The mean, mean variance, and coefficient of variation of these syllables were also measured. Motif-level data was also collected to monitor how much each bird sang (i.e., how many copies of song were uttered over a 2 hour period). We found that overexpression of SNCA led to shorter and poorer quality syllables that are similar to Parkinsonian vocal changes.To cite this work, please cite both the associated PLoS One paper ""Vocal changes in a zebra finch model of Parkinson’s Disease characterized by alpha-synuclein overexpression in the song-dedicated anterior forebrain pathway"" and this dataset.For inquiries regarding the contents of this dataset, please contact the Corresponding Author listed in the README.txt file. Administrative inquiries (e.g., removal requests, trouble downloading, etc.) can be directed to data-management@arizona.edu",,https://s3-eu-west-1.amazonaws.com/ppreviews-arizona-1631849446/30771637/thumb.png,https://websitev3-p-eu.figstatic.com/assets-v3/97a584d494444650f01c8ba85b077c4f7938fbce/static/media/favicon-16.658d1490.png

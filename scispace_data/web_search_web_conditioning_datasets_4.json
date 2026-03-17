@@ -1,0 +1,42 @@
+{
+  "type": "web_search_results",
+  "tool": "firecrawl",
+  "query": "\"supplementary data\" conditioning learning curve individual animal trial-by-trial pigeon rat rabbit",
+  "results": [
+    {
+      "title": "Information, certainty, and learning | bioRxiv",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.07.31.606111v4",
+      "domain": "www.biorxiv.org",
+      "description": "bioRxiv - the preprint server for biology, operated by openRxiv, a nonprofit organization dedicated to advancing scientific communication",
+      "favicon_url": "https://www.biorxiv.org/sites/default/files/images/favicon.ico"
+    },
+    {
+      "title": "Frontiers | Conditioned Taste Aversion as a Tool for Mitigating Human-Wildlife Conflicts",
+      "url": "https://www.frontiersin.org/journals/conservation-science/articles/10.3389/fcosc.2021.744704/full",
+      "domain": "www.frontiersin.org",
+      "description": "Modern wildlife management has dual mandates to reduce human-wildlife conflict (HWC) for burgeoning populations of people while supporting conservation of bi..., Modern wildlife management has dual mandates to reduce human-wildlife conflict (HWC) for burgeoning populations of people while supporting conservation of bi...",
+      "favicon_url": "https://static2.frontiersin.org/static-resources/tenants/frontiers/favicon_16-tenantFavicon-Frontiers.png"
+    },
+    {
+      "title": "special role for anterior cingulate cortex, but not orbitofrontal cortex or basolateral amygdala, in choices involving information | Cerebral Cortex | Oxford Academic",
+      "url": "https://academic.oup.com/cercor/article/34/4/bhae135/7644533",
+      "domain": "academic.oup.com",
+      "description": "Abstract. Subjects are often willing to pay a cost for information. In a procedure that promotes paradoxical choices, animals choose between a richer optio",
+      "favicon_url": "https://oup.silverchair-cdn.com/UI/app/img/v-639066180923850832/favicon-32x32.png"
+    },
+    {
+      "title": "Opportunities for improving animal welfare in rodent models of epilepsy and seizures - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0165027015003404",
+      "domain": "www.sciencedirect.com",
+      "description": null,
+      "favicon_url": "https://www.sciencedirect.com/shared-assets/103/images/favSD.ico"
+    },
+    {
+      "title": "Odourant dominance in olfactory mixture processing: what makes a strong odourant? | Proceedings B | The Royal Society",
+      "url": "https://royalsocietypublishing.org/rspb/article-abstract/282/1802/20142562/77560/Odourant-dominance-in-olfactory-mixture-processing?redirectedFrom=fulltext",
+      "domain": "royalsocietypublishing.org",
+      "description": "Abstract. The question of how animals process stimulus mixtures remains controversial as opposing views propose that mixtures are processed analytically, a",
+      "favicon_url": "https://trs.silverchair-cdn.com/Themes/Client/app/img/favicons/favicon-32x32.png"
+    }
+  ]
+}

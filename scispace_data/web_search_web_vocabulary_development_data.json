@@ -1,0 +1,42 @@
+{
+  "type": "web_search_results",
+  "tool": "firecrawl",
+  "query": "vocabulary spurt child language development longitudinal data repository CHILDES WordBank individual trajectories",
+  "results": [
+    {
+      "title": "\nWordbank: An open database of children's vocabulary development\n",
+      "url": "https://wordbank.stanford.edu/",
+      "domain": "wordbank.stanford.edu",
+      "description": null,
+      "favicon_url": "https://wordbank.stanford.edu/static/images/favicon.ico"
+    },
+    {
+      "title": "Wordbank: an open repository for developmental vocabulary data - PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27189114/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "description": "The MacArthur-Bates Communicative Development Inventories (CDIs) are a widely used family of parent-report instruments for easy and inexpensive data-gathering about early language acquisition. CDI data have been used to explore a variety of theoretically important topics, but, with few exceptions, r \u2026",
+      "favicon_url": "https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/favicons/favicon.png"
+    },
+    {
+      "title": "Wordbank: an open repository for developmental vocabulary ...",
+      "url": "https://langcog.stanford.edu/papers_new/frank-2016-jcl.pdf",
+      "domain": "langcog.stanford.edu",
+      "description": "by MC FRANK \u00b7 Cited by 837 \u2014 Wordbank archives CDI data across languages and labs, providing a resource for researchers interested in early language, as well as a platform ...",
+      "favicon_url": ""
+    },
+    {
+      "title": "Error - Cookies Turned Off",
+      "url": "https://onlinelibrary.wiley.com/action/cookieAbsent",
+      "domain": "onlinelibrary.wiley.com",
+      "description": null,
+      "favicon_url": "https://onlinelibrary.wiley.com/favicon.ico"
+    },
+    {
+      "title": "(PDF) Modeling Longitudinal Trajectories of Word Production With the CDI",
+      "url": "https://www.researchgate.net/publication/392728473_Modeling_Longitudinal_Trajectories_of_Word_Production_With_the_CDI",
+      "domain": "www.researchgate.net",
+      "description": "PDF | The MacArthur\u2010Bates Communicative Development Inventories (CDI) are widely used, parent\u2010report instruments of language acquisition. Here, we focus... | Find, read and cite all the research you need on ResearchGate",
+      "favicon_url": "https://c5.rgstatic.net/m/42199702882742/images/favicon/favicon-32x32.png"
+    }
+  ]
+}

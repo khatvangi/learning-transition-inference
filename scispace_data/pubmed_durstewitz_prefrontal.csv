@@ -1,0 +1,15 @@
+"Paper Title","Paper Link","Publication Year","Publication Type","Publication Title","Author Names","DOI","PDF Link","Abstract"
+"Abrupt transitions between prefrontal neural ensemble states accompany behavioral transitions during rule learning.","https://scispace.com/paper/20471356","2010","Journal Article","Neuron","Durstewitz
+Vittoz
+Floresco
+Seamans","10.1016/j.neuron.2010.03.029","","One of the most intriguing aspects of adaptive behavior involves the inference of regularities and rules in ever-changing environments. Rules are often deduced through evidence-based learning which relies on the prefrontal cortex (PFC). This is a highly dynamic process, evolving trial by trial and therefore may not be adequately captured by averaging single-unit responses over numerous repetitions. Here, we employed advanced statistical techniques to visualize the trajectories of ensembles of simultaneously recorded medial PFC neurons on a trial-by-trial basis as rats deduced a novel rule in a set-shifting task. Neural populations formed clearly distinct and lasting representations of familiar and novel rules by entering unique network states. During rule acquisition, the recorded ensembles often exhibited abrupt transitions, rather than evolving continuously, in tight temporal relation to behavioral performance shifts. These results support the idea that rule learning is an evidence-based decision process, perhaps accompanied by moments of sudden insight."
+"Resolving the prefrontal mechanisms of adaptive cognitive behaviors: A cross-species perspective.","https://scispace.com/paper/37023708","2023","Journal Article","Neuron","Hanganu-Opatz
+Klausberger
+Sigurdsson
+Nieder
+Jacob
+Bartos
+Sauer
+Durstewitz
+Leibold
+Diester","10.1016/j.neuron.2023.03.017","","The prefrontal cortex (PFC) enables a staggering variety of complex behaviors, such as planning actions, solving problems, and adapting to new situations according to external information and internal states. These higher-order abilities, collectively defined as adaptive cognitive behavior, require cellular ensembles that coordinate the tradeoff between the stability and flexibility of neural representations. While the mechanisms underlying the function of cellular ensembles are still unclear, recent experimental and theoretical studies suggest that temporal coordination dynamically binds prefrontal neurons into functional ensembles. A so far largely separate stream of research has investigated the prefrontal efferent and afferent connectivity. These two research streams have recently converged on the hypothesis that prefrontal connectivity patterns influence ensemble formation and the function of neurons within ensembles. Here, we propose a unitary concept that, leveraging a cross-species definition of prefrontal regions, explains how prefrontal ensembles adaptively regulate and efficiently coordinate multiple processes in distinct cognitive behaviors."

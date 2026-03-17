@@ -1,0 +1,21 @@
+"Paper Title","Paper Link","Publication Year","Publication Type","Publication Title","Author Names","DOI","PDF Link","Snippet","Abstract"
+"Decoding hidden goal-directed navigational states and their neuronal representations using a novel labyrinth paradigm and probabilistic modeling framework","https://scispace.com/paper/An83NQAa_W8J","","","","PS Honma
+SC Bangera
+R Thomas
+N Kaliss
+D Xia","","https://www.biorxiv.org/content/biorxiv/early/2025/11/14/2025.11.13.688348.full.pdf","… The path length or the number of (non-unique) nodes visited by the mouse before reaching … mouse never reached the target zone and the path length for the entire bout (from entry to …",""
+"Predictive maps in rats and humans for spatial navigation","https://scispace.com/paper/predictive-maps-in-rats-and-humans-for-spatial-navigation-5dltzg9dnm","2020","Posted Content","bioRxiv","William de Cothi
+Nils Nyberg
+Eva-Maria Griesbauer
+Carole Ghanamé
+Fiona Zisch
+Julie M. Lefort
+Lydia Fletcher
+Charlotte Coco Newton
+Sophie Renaudineau
+Daniel Bendor
+Roddy M. Grieves
+Éléonore Duvelle
+Caswell Barry
+Hugo J. Spiers","10.1101/2020.09.26.314815","https://scispace.com/pdf/predictive-maps-in-rats-and-humans-for-spatial-navigation-5dltzg9dnm.pdf","… underlying goal-directed behavior is through comparison with reinforcement learning (RL) models. RL is an area of machine learning that addresses the theoretical problem of how a …","Much of our understanding of navigation has come from the study of rats, humans and simulated artificial agents. To date little attempt has been made to integrate these approaches into a common framework to understand mechanisms that may be shared across mammals and the extent to which different instantiations of agents best capture mammalian navigation behaviour. Here, we report a comparison of rats, humans and reinforcement learning (RL) agents in a novel open-field navigation task (‘Tartarus Maze’) requiring dynamic adaptation (shortcuts and detours) to changing obstructions in the path to the goal. We find humans and rats are remarkably similar in patterns of choice in the task. The patterns in their choices, dwell maps and changes over time reveal that both species show the greatest similarity to RL agents utilising a predictive map: the successor representation. Humans also display trajectory features similar to a model-based RL agent. Our findings have implications for models seeking to explain mammalian navigation in dynamic environments and highlight the utility of modelling the behaviour of different species in the same frame-work in comparison to RL agents to uncover the potential mechanisms used for behaviour."
+"Innate Navigation: Magnetic Sensation and Maze Learning","https://scispace.com/paper/-raYyzaTxogJ","","","","M Rosenberg","","https://search.proquest.com/openview/c72f14476564d2cbb318ee75aee404a9/1.pdf?pq-origsite=gscholar&cbl=18750&diss=y","… Mice in a labyrinth show rapid learning, sudden insight, and efficient exploration. Elife, 10:… Note, the path length plotted here is directly related to the number of “turning errors”: every …",""

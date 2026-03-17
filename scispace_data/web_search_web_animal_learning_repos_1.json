@@ -1,0 +1,42 @@
+{
+  "type": "web_search_results",
+  "tool": "firecrawl",
+  "query": "animal learning open data repository individual trial conditioning birdsong maze behavioral",
+  "results": [
+    {
+      "title": "A behavioral analysis system MCFBM enables objective inference of songbirds\u2019 attention during social interactions: Cell Reports Methods",
+      "url": "https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00217-0",
+      "domain": "www.cell.com",
+      "description": null,
+      "favicon_url": null
+    },
+    {
+      "title": "Birdsong learning, avian cognition and the evolution of language",
+      "url": "https://pdf.sciencedirectassets.com/272524/1-s2.0-S0003347219X00044/1-s2.0-S0003347219300168/am.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECcaCXVzLWVhc3QtMSJGMEQCIHfx6KyPb7EVHiNHwlghbgTEQaor%2BCpsnIbuP%2F0wVIRxAiB%2FQr7RJPJmL7%2FvGz%2F6ldbM%2BTctcQxLNsTsRFcw5TV8jCq7BQjw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAUaDDA1OTAwMzU0Njg2NSIM%2BqdWTUszcnOIeRzkKo8FMX0KvnbF2K6QjMTVElIBMR2LDQwhjhJcdrKqoRIp%2FoniTnlhKy%2FvDVNwphPjGVLsqUXWOlzMpoPvWCkaGCO6xM8eDSDKi2EpnzYAk0Jc6tgAt2EAQW34NMbvgOP3RLKIxk9WJuLq6EvnWTvglemZwCtg8ki0nx7S%2F1n6YZtUYclphpmUC3CE20z4Fl%2FhPvUTfQehWU%2BR5eO%2FGTObcGhevaeOYfqgzbf0hkr%2FLeEregoos09C82fqRjpzElQfknD%2BH9U%2BpxycJVNNKbd5Qava4CBMith5%2BrTuWmKIIIPyYhp8OPebmcEldEaZDWhlJ8A1r3SoKBLR49a15LbNOwUehY0qQALFBqM8GV6SnGezv%2FYD6p8fTkofKCShg6%2B3BgTV1IhIQlKa6LRZ2qbD2V9h2jxNTlftrT6MKKVpCPO7eff2dX4a1qVdh4YnEnDS%2Bub9TrfbFSw6sV9N9M%2BDBxU%2FUQoN1HSrb8yH%2F%2BxPTS%2Bka2fp2j0EL91jXqgfwWFkJKut5Bc%2BTUSCAXe3f2L%2Bw9tHfYTKvVny%2FMNgj0iF6mJZEGenENJU56mA25k75f04KtiKHAIEgJ4x2KdH4%2Fr9IiwitBIlHfgcJwUnOzLkWl6WtvmRfKKU%2F6jyf3yTQAJQlnli2U2Ge2%2BO6KGoejp2CyB80nhDEQowqFww7%2BN13AsDbCBEeunFQ3sN2IX5C5aEmNgvzUJPbk5P85JdS4npbwzvhA94RySoW4pCDu%2Bg%2BYEMxpOpvFjx443w94%2Bj4uBQt69TEtDZ3Z8kTdSYeU92%2F%2Fuc3csOy8ll%2FlXUh27plqcMP%2BM%2FlFLl8aQeaw11Fy00pUYS2aq9yMrnA8oedOIvRK0Dswpn8sT5mF%2F23CX0dopSczDpyOXNBjqyAf1A9iGI48NubbNWoOV0k1fdj%2FEa66fTj8hKUsaetm%2FSe6P6cYI9rL3xzFdJAC4FJeLkE7gZAjDH%2FeoB5tmlLGOkr4tr0XeawJWwdN1uimMKR2BCtBQug1uviEl%2FNsYFmc0tWMiJcMHbLSPxxNYswDPX6lPR%2B7YgWogoBCQAo2IzYHX1e9rIgGzE6UpzuZmh0jSshg0Lrx9S2%2F335ih6HFVjHzmCeIQIs%2BBuYQXlfog8R9M%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260317T150254Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQ2RPZUUT%2F20260317%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=030ebd4b7870620c02355ea24eb8d5bc3fae0842b26ca5dca79dccd524652a37&hash=be6e0ded34d7060e6e0fde84edf93aa8a32ecc1b5b391ab9d03516cbde9f8c6d&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0003347219300168&tid=pdf-12ca6112-5f1e-4d98-af82-5fa0f10299dd&sid=ae4b804c993ad243ae0815b5a99ddb97aaefgxrqa&type=client",
+      "domain": "pdf.sciencedirectassets.com",
+      "description": null,
+      "favicon_url": null
+    },
+    {
+      "title": "\n            Learning, fast and slow - PMC\n        ",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9509687/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "description": "Animals can learn efficiently from a single experience and change their future behavior in response. However, in other instances, animals learn very slowly, requiring thousands of experiences. Here I survey tasks involving fast and slow learning and ...",
+      "favicon_url": "https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png"
+    },
+    {
+      "title": null,
+      "url": "https://hamptonlab.wordpress.com/wp-content/uploads/2022/07/2014gazelazarevabergenehampton.pdf",
+      "domain": "hamptonlab.wordpress.com",
+      "description": null,
+      "favicon_url": null
+    },
+    {
+      "title": null,
+      "url": "https://psycnet.apa.org/manuscript/2015-44225-001.pdf",
+      "domain": "psycnet.apa.org",
+      "description": null,
+      "favicon_url": null
+    }
+  ]
+}

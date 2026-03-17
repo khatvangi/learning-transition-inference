@@ -1,0 +1,42 @@
+{
+  "type": "web_search_results",
+  "tool": "firecrawl",
+  "query": "animal learning open data repository individual trial conditioning birdsong maze insight behavioral trajectory",
+  "results": [
+    {
+      "title": "Animal Learning - an overview | ScienceDirect Topics",
+      "url": "https://www.sciencedirect.com/topics/psychology/animal-learning",
+      "domain": "www.sciencedirect.com",
+      "description": null,
+      "favicon_url": "https://sdfestaticassets-us-east-1.sciencedirectassets.com/shared-assets/103/images/favSD.ico"
+    },
+    {
+      "title": "Animal learning & behavior - National Library of Medicine Institution",
+      "url": "https://catalog.nlm.nih.gov/discovery/fulldisplay?vid=01NLM_INST:01NLM_INST&docid=alma991142453406676&context=L",
+      "domain": "catalog.nlm.nih.gov",
+      "description": "Animal learning & behavior-journal",
+      "favicon_url": "https://catalog.nlm.nih.gov/discovery/custom/01NLM_INST-01NLM_INST/img/favicon.ico"
+    },
+    {
+      "title": "Video Repository | OpenBehavior",
+      "url": "https://edspace.american.edu/openbehavior/video-repository/",
+      "domain": "edspace.american.edu",
+      "description": null,
+      "favicon_url": "https://edspace.american.edu/openbehavior/wp-content/uploads/sites/2431/2016/08/cropped-logo_w-1-32x32.png"
+    },
+    {
+      "title": "Examination of Animal Behaviour: General Principles and Techniques (Chapter 4) - Behavioural Neuroscience",
+      "url": "https://www.cambridge.org/core/books/abs/behavioural-neuroscience/examination-of-animal-behaviour-general-principles-and-techniques/79605BCC8AE44F2C5BF7B20FBBEB2D1A",
+      "domain": "www.cambridge.org",
+      "description": "Behavioural Neuroscience - April 2018",
+      "favicon_url": "https://www.cambridge.org/core/cambridge-core/public/images/favicon.ico"
+    },
+    {
+      "title": "(PDF) Perspectives on Observational Learning in Animals",
+      "url": "https://www.researchgate.net/publication/51622792_Perspectives_on_Observational_Learning_in_Animals",
+      "domain": "www.researchgate.net",
+      "description": "PDF | Observational learning is presumed to have occurred when an organism copies an improbable action or action outcome that it has observed and the... | Find, read and cite all the research you need on ResearchGate",
+      "favicon_url": "https://c5.rgstatic.net/m/42199702882742/images/favicon/favicon-32x32.png"
+    }
+  ]
+}

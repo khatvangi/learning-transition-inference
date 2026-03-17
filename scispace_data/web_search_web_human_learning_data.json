@@ -1,0 +1,42 @@
+{
+  "type": "web_search_results",
+  "tool": "firecrawl",
+  "query": "\"individual participant data\" OR \"trial-by-trial\" implicit learning AGL perceptual learning dataset repository",
+  "results": [
+    {
+      "title": "\n            Implicit and explicit learning of socio-emotional information in a dynamic interaction with a virtual avatar - PMC\n        ",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10191928/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "description": "Implicit learning (IL) deals with the non-conscious acquisition of structural regularities from the environment. IL is often deemed essential for acquiring regularities followed by social stimuli (e.g., other persons\u2019 behavior), hence is ...",
+      "favicon_url": "https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png"
+    },
+    {
+      "title": "(PDF) A Single Paradigm for Implicit and Statistical Learning",
+      "url": "https://www.researchgate.net/publication/334648506_A_Single_Paradigm_for_Implicit_and_Statistical_Learning",
+      "domain": "www.researchgate.net",
+      "description": "PDF | Implicit learning generally refers to the acquisition of structures that, like knowledge of natural language grammar, are not available to... | Find, read and cite all the research you need on ResearchGate",
+      "favicon_url": "https://c5.rgstatic.net/m/42199702882742/images/favicon/favicon-32x32.png"
+    },
+    {
+      "title": null,
+      "url": "http://repository.umsu.ac.id/bitstream/123456789/14806/1/Implicit%20Learning%2050%20Years%20On.pdf",
+      "domain": "repository.umsu.ac.id",
+      "description": null,
+      "favicon_url": null
+    },
+    {
+      "title": null,
+      "url": "https://eprints.soton.ac.uk/197237/1/Neil_thesis_282_29.pdf",
+      "domain": "eprints.soton.ac.uk",
+      "description": null,
+      "favicon_url": null
+    },
+    {
+      "title": "Publications | Max Planck Institute",
+      "url": "https://www.mpi.nl/department/neurobiology-language/4/publications?page=3",
+      "domain": "www.mpi.nl",
+      "description": null,
+      "favicon_url": "https://www.mpi.nl/themes/custom/mpi/favicon.ico"
+    }
+  ]
+}

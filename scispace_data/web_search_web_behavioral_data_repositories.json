@@ -1,0 +1,42 @@
+{
+  "type": "web_search_results",
+  "tool": "firecrawl",
+  "query": "\"open data\" OR \"data repository\" zebra finch song learning trajectory supplementary data available",
+  "results": [
+    {
+      "title": "\n            The Hidden Fitness of the Male Zebra Finch Courtship Song - PMC\n        ",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11410162/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "description": "Vocal learning in songbirds is thought to have evolved through sexual selection, with female preference driving males to develop large and varied song repertoires1-3. Yet, many songbirds learn only a single song in their lifetime4. How sexual ...",
+      "favicon_url": "https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png"
+    },
+    {
+      "title": "Sex chromosome gene expression associated with vocal learning following hormonal manipulation in female zebra finches",
+      "url": "https://elifesciences.org/reviewed-preprints/89425/reviews",
+      "domain": "elifesciences.org",
+      "description": null,
+      "favicon_url": null
+    },
+    {
+      "title": "A synaptic locus of song learning | bioRxiv",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.20.699515v1.full",
+      "domain": "www.biorxiv.org",
+      "description": "bioRxiv - the preprint server for biology, operated by openRxiv, a nonprofit organization dedicated to advancing scientific communication",
+      "favicon_url": "https://www.biorxiv.org/sites/default/files/images/favicon.ico"
+    },
+    {
+      "title": null,
+      "url": "https://ecoevorxiv.org/repository/object/7530/download/16500/",
+      "domain": "ecoevorxiv.org",
+      "description": null,
+      "favicon_url": null
+    },
+    {
+      "title": "(PDF) A deep learning approach for the analysis of birdsong",
+      "url": "https://www.researchgate.net/publication/397723738_A_deep_learning_approach_for_the_analysis_of_birdsong",
+      "domain": "www.researchgate.net",
+      "description": "PDF | Deep learning tools for behavior analysis have enabled important insights and discoveries in neuroscience. Yet, they often compromise... | Find, read and cite all the research you need on ResearchGate",
+      "favicon_url": "https://c5.rgstatic.net/m/42199702882742/images/favicon/favicon-32x32.png"
+    }
+  ]
+}

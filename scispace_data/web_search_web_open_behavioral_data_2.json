@@ -1,0 +1,42 @@
+{
+  "type": "web_search_results",
+  "tool": "firecrawl",
+  "query": "\"open data\" repository behavioral neuroscience individual trial learning trajectories supplementary",
+  "results": [
+    {
+      "title": "\n            NEBULA101: an open dataset for the study of language aptitude in behaviour, brain structure and function - PMC\n        ",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11704325/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "description": "This paper introduces the \u201cNEBULA101 - Neuro-behavioural Understanding of Language Aptitude\u201d dataset, which comprises behavioural and brain imaging data from 101 healthy adults to examine individual differences in language and cognition. Human ...",
+      "favicon_url": "https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/a2b04810/var/data/static/img/favicons/favicon-48x48.png"
+    },
+    {
+      "title": "A large-scale dataset of choice and response-time data in intertemporal choice | Scientific Data",
+      "url": "https://www.nature.com/articles/s41597-026-06947-4",
+      "domain": "www.nature.com",
+      "description": "The study of intertemporal choices (ITC) plays a vital role in psychological and behavioral economics research. Models of intertemporal choice (ITC) have traditionally focused on choices. A growing interest in the underlying cognitive processes has initiated the development of process models. Process models require process data, and yet ITC research has largely overlooked even the simplest process data \u2013 response times (RTs). We present a large-scale dataset of choices and response times from 100 ITC studies with 11,852 subjects and 1,172,644 trials. In addition to behavioral data, we collected various methodological and sample information (e.g., task procedure, incentivization). The objective of the large-scale dataset is to facilitate the development of more nuanced and accurate theories of ITC. The associated ITC Database is open to ongoing submissions and is projected to expand continuously.",
+      "favicon_url": "https://www.nature.com/static/images/favicons/nature/favicon-48x48-b52890008c.png"
+    },
+    {
+      "title": "(PDF) Introducing the Truth Effect Database (TED): An Open Trial-Level Resource Promoting FAIR Data in Truth Effect Research",
+      "url": "https://www.researchgate.net/publication/401850310_Introducing_the_Truth_Effect_Database_TED_An_Open_Trial-Level_Resource_Promoting_FAIR_Data_in_Truth_Effect_Research",
+      "domain": "www.researchgate.net",
+      "description": "PDF | The Truth Effect Database (TED) is a large-scale, open database that harmonizes trial-level data from studies on the illusory truth effect to... | Find, read and cite all the research you need on ResearchGate",
+      "favicon_url": "https://c5.rgstatic.net/m/42199702882742/images/favicon/favicon-32x32.png"
+    },
+    {
+      "title": "Similarity of brain activity patterns during learning and subsequent resting state predicts memory consolidation - ScienceDirect",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0010945224002107",
+      "domain": "www.sciencedirect.com",
+      "description": null,
+      "favicon_url": "https://www.sciencedirect.com/shared-assets/103/images/favSD.ico"
+    },
+    {
+      "title": "49650313",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.08.27.609682v2.full.pdf",
+      "domain": "www.biorxiv.org",
+      "description": null,
+      "favicon_url": null
+    }
+  ]
+}

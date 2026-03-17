@@ -1,0 +1,21 @@
+{
+  "type": "web_search_results",
+  "tool": "firecrawl",
+  "query": "OSF \"individual learning trajectory\" perceptual implicit AGL vocabulary reading longitudinal data",
+  "results": [
+    {
+      "title": "Microsoft Word - Dissertatie-Lammertink.docx",
+      "url": "https://www.lotpublications.nl/Documents/567_fulltext.pdf",
+      "domain": "www.lotpublications.nl",
+      "description": null,
+      "favicon_url": null
+    },
+    {
+      "title": null,
+      "url": "https://pure.uva.nl/ws/files/48047798/Thesis.pdf",
+      "domain": "pure.uva.nl",
+      "description": null,
+      "favicon_url": null
+    }
+  ]
+}
