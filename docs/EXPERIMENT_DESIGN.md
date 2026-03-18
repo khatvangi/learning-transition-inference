@@ -1,13 +1,15 @@
-# EPT Human Experiment: Artificial Grammar Learning with Phase-Transition Diagnostics
+# AGL Experiment: Artificial Grammar Learning with Transition-Signature Diagnostics
 
-**Paper 3 — Human validation of Epistemic Phase Transitions**
+**Human tests of learning-transition predictions**
 
 ## Background & Rationale
 
-The EPT framework predicts that genuine insight (the "aha moment") is a first-order phase
-transition: discontinuous, irreversible (hysteretic), and parameter-dependent. Papers 1-2
-validate this in neural networks (grokking) and dictionary learning. This experiment tests
-whether the same (Ψ, F) signatures appear in human learning.
+The transition-inference framework detects transition signatures in learning trajectories:
+abruptness (Ψ velocity spike), persistence under perturbation, cross-channel convergence,
+and parameter sensitivity (dose-response). Prior work found abrupt transitions in neural
+network grokking and state-switching dynamics in rodent maze learning. This experiment
+tests whether the same diagnostic framework detects transition signatures in human learning,
+and if so, what topology those transitions exhibit.
 
 **Why AGL?** Artificial Grammar Learning is the ideal paradigm because:
 - The "correct structure" (grammar) is known a priori → F_task is computable
@@ -83,53 +85,53 @@ This is the "dose" — analogous to weight decay strength in grokking.
 - String properties (length, similarity to training strings, violation type)
 - Response (grammatical/ungrammatical)
 
-### Hysteresis Protocol
+### Persistence Protocol
 
-The transfer test (Phase 3) IS the hysteresis test, following established AGL methodology:
+The transfer test (Phase 3) tests whether learned structure persists after perturbation:
 
-1. **Feedback removal**: The "seed" (feedback) is silently removed
-2. **Novel strings**: New strings from the SAME grammar (never seen before)
-3. **Persistence measure**: F_task = accuracy on transfer strings
-   - High F_task (>70%) = genuine rule learning (Crystal) — structure persists without seed
-   - Low F_task (~50%) = memorization (Glass) — no transfer, no genuine insight
+1. **Feedback removal**: feedback is silently removed
+2. **Novel strings**: new strings from the SAME grammar (never seen before)
+3. **Persistence measure**: transfer accuracy on novel strings
+   - High transfer (>70%) = structure persists without feedback
+   - Low transfer (~50%) = no generalization beyond training items
+4. **Controlled analysis**: transfer accuracy is analyzed AFTER regressing out
+   final learning performance, to separate "better learners transfer better"
+   from "transitions are persistent."
 
-This follows Reber's original transfer paradigm and subsequent work on
-abstract vs. chunk-based learning in AGL.
+This follows Reber's original transfer paradigm. We avoid the term "hysteresis"
+because this is persistence under changed conditions, not a true parameter-reversal loop.
 
-### EPT Predictions (Pre-registered, Falsifiable)
+### Transition-Signature Predictions (Pre-registered)
 
-**P1: Velocity spike at insight onset**
-- |ΔRT| or |Δ(rolling accuracy)| should peak within ±3 trials of self-reported aha
-- Test: paired comparison of velocity at aha-trial vs. velocity at random matched trials
-- Correction: permutation test with circular shift (avoids v2 circularity)
+**S1: Transition detection**
+- The inference module (changepoint + model comparison + Ψ) should classify
+  some participants as "abrupt" and others as "gradual" or "non-learner."
+- This is descriptive: what topology does human AGL learning exhibit?
 
-**P2: Dose-response (grammar difficulty)**
-- Easy grammar → more participants reach criterion, faster
-- Hard grammar → fewer reach criterion, slower
-- The TIMING of transition should follow Arrhenius-like scaling with difficulty
+**S2: Dose-response (grammar difficulty)**
+- Easy grammar → higher rate of abrupt transitions
+- Hard grammar → lower rate, or more non-learners
+- Test: chi-squared on transition-type rates across difficulty conditions
 
-**P3: Hysteresis (transfer test)**
-- Participants who reported aha should show HIGHER transfer accuracy than
-  participants who didn't, even though feedback is removed for both
-- This is the human analog of: grokked networks maintain accuracy at WD=0
+**S3: Persistence under perturbation (transfer test)**
+- Participants classified as "abrupt" should show higher transfer accuracy
+  AFTER controlling for final learning performance (addresses the confound
+  that better learners both transition and transfer better).
+- Test: residual transfer accuracy after regressing out learning performance.
 
-**P4: Convergent markers**
-- Self-report aha, confidence jump, and RT velocity spike should co-occur
-  (within ±3 trials of each other) in genuine insight episodes
-- Divergence = pseudo-insight or non-insight
+**S4: Aha-changepoint alignment**
+- Self-reported aha should occur near inference-detected changepoints.
+- Test: circular-shift permutation on |aha_trial - nearest_changepoint|.
+- If aha aligns with changepoints, it validates aha as a transition marker.
+- If it doesn't, aha may be metacognitive rather than behavioral.
 
-**P5: IPR analog**
-- Participants who "grokked" should show LOWER RT variability (more consistent
-  responding) after the transition — analogous to IPR dropping from 48 to 3
-- Crystal state = consistent strategy. Glass state = variable guessing.
+### What Would Each Outcome Mean
 
-### What Would Falsify EPT
-
-- If velocity spikes don't co-occur with self-reported aha → timing prediction fails
-- If transfer accuracy is equal for aha vs. non-aha participants → no hysteresis
-- If difficulty has no effect on transition rate → no dose-response
-- If all three markers (aha, confidence, RT) diverge systematically → EPT is wrong
-  about unified transition signatures
+- All gradual, no abrupt → human AGL learning is continuous; transitions are not universal
+- Some abrupt, some gradual → topology varies across learners (like mouse maze)
+- Abrupt with persistence → transition-signature framework applies to humans
+- Abrupt without persistence → abruptness without stability (different from grokking)
+- Aha misaligned with changepoints → self-report is unreliable transition marker
 
 ## Grammar Specifications
 
@@ -244,38 +246,37 @@ Equal mix of violation types. Matched for string length.
 
 ## Analysis Plan (Pre-registered)
 
+All analyses use the domain-agnostic inference module (`inference/`).
+The AGL-specific adapter is `tasks/agl/analysis/analyze_agl.py`.
+
 ### Primary Analyses
 
-1. **Velocity spike at aha** (P1)
-   - Compute |Δ(rolling accuracy, window=5)| per participant
-   - For each aha participant: z-score of velocity at aha-trial vs baseline
-   - Group test: one-sample t-test of z-scores vs 0
-   - Permutation test: circularly shift trial labels, recompute z (5000 permutations)
-   - Non-circular: aha button is INDEPENDENT of accuracy (pressed at any time)
+1. **S1: Transition detection** (per participant)
+   - Run `inference.detect_transitions()` on each participant's accuracy,
+     confidence, and RT series.
+   - Classify each participant: abrupt / gradual / unstable / non-learner.
+   - Report distribution of transition topologies.
 
-2. **Dose-response** (P2)
-   - Proportion reaching criterion (>75% accuracy in last 20 learning trials) by condition
-   - Chi-squared test across Easy/Medium/Hard
-   - Among those who reach criterion: Kruskal-Wallis on trial-of-criterion
+2. **S2: Dose-response** (grammar difficulty × transition type)
+   - Chi-squared test on transition-type rates across Easy/Medium/Hard conditions.
+   - Prediction: harder grammars → fewer abrupt transitions.
 
-3. **Hysteresis** (P3)
-   - Transfer accuracy: aha-group vs non-aha-group
-   - Mann-Whitney U test
-   - Effect size: Cohen's d
+3. **S3: Persistence under perturbation** (controlled transfer test)
+   - Test whether inference-detected "abrupt" participants show higher
+     transfer accuracy AFTER controlling for final learning performance.
+   - Method: regress transfer on learning accuracy, test whether
+     transition status predicts residual transfer.
+   - This addresses the confound that better learners both transition
+     and transfer better.
 
-4. **Marker convergence** (P4)
-   - For each aha participant: compute distance (in trials) between:
-     - Self-report aha trial
-     - Confidence jump trial (first trial where confidence >= 7)
-     - RT velocity peak trial
-   - Report: mean |distance| and proportion within ±3 trials
-
-5. **RT variability** (P5)
-   - CV of RT in last 20 trials: aha-group vs non-aha-group
-   - Lower CV in aha-group = more consistent (Crystal)
+4. **S4: Aha-changepoint alignment**
+   - For each aha participant: compute |aha_trial - nearest_changepoint|.
+   - Circular-shift permutation test (5000 permutations) to assess
+     whether alignment is better than chance.
+   - This tests whether self-report tracks behavioral transitions.
 
 ### Corrections
-- Bonferroni correction for 5 primary tests (α = 0.01 per test)
+- Bonferroni correction for 4 primary tests (α = 0.0125 per test)
 - All secondary/exploratory analyses clearly labeled
 
 ### Power Analysis
