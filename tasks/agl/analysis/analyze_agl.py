@@ -58,15 +58,18 @@ def participant_to_canonical(p):
         transfer: 1D array of transfer-phase accuracy
         metadata: dict with participant_id, condition, aha_trial, etc.
     """
-    # extract learning-phase trials
+    # extract practice + learning trials (both have feedback, both show learning)
+    # practice is where early transitions may occur — excluding it loses signal
+    practice = [t for t in p["trials"] if t["phase"] == "practice"]
     learning = [t for t in p["trials"] if t["phase"] == "learning"]
+    measured = practice + learning  # combined measured phase
     transfer = [t for t in p["trials"] if t["phase"] == "transfer"]
 
-    if len(learning) < 20:
+    if len(measured) < 20:
         return None
 
-    accuracy_raw = np.array([t["correct"] for t in learning], dtype=float)
-    rt = np.array([t["rt_ms"] for t in learning], dtype=float)
+    accuracy_raw = np.array([t["correct"] for t in measured], dtype=float)
+    rt = np.array([t["rt_ms"] for t in measured], dtype=float)
 
     # window binary accuracy into a continuous signal for inference.
     # raw 0/1 per trial is too noisy for changepoint detection.
@@ -79,9 +82,9 @@ def participant_to_canonical(p):
         accuracy = accuracy_raw
 
     # interpolate confidence to trial level
-    # (confidence is sampled every 10 trials in the AGL design)
+    # (confidence is sampled every 10 learning trials — offset by practice length)
     conf_sparse = p.get("confidence_trajectory", [])
-    confidence = _interpolate_confidence(conf_sparse, len(learning))
+    confidence = _interpolate_confidence(conf_sparse, len(measured))
 
     # transfer accuracy — window same as learning for consistency
     transfer_acc = None
@@ -99,8 +102,9 @@ def participant_to_canonical(p):
     if p.get("aha_events"):
         aha_trial = p["aha_events"][0]["trial_num"]
 
-    # final learning accuracy (for persistence control)
-    final_acc = float(accuracy[-20:].mean()) if len(accuracy) >= 20 else float(accuracy.mean())
+    # final learning accuracy (for persistence control) — from learning phase only
+    learning_acc_raw = np.array([t["correct"] for t in learning], dtype=float)
+    final_acc = float(learning_acc_raw[-20:].mean()) if len(learning_acc_raw) >= 20 else float(learning_acc_raw.mean())
 
     return {
         "accuracy": accuracy,
@@ -113,7 +117,9 @@ def participant_to_canonical(p):
             "aha_trial": aha_trial,
             "has_aha": aha_trial is not None,
             "final_learning_acc": final_acc,
+            "n_practice_trials": len(practice),
             "n_learning_trials": len(learning),
+            "n_measured_trials": len(measured),
             "n_transfer_trials": len(transfer),
         },
     }

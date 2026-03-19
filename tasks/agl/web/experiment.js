@@ -17,7 +17,7 @@ class EPTExperiment {
     this.prolificPid = config.prolificPid || null;
 
     // trial counts per phase
-    this.nExposure = 25;      // grammatical-only strings shown passively
+    this.nExposure = 15;      // grammatical-only strings shown passively
     this.exposureDuration = 3000; // ms per string during exposure
     this.nPractice = 10;
     this.nLearning = 100;
