@@ -96,7 +96,7 @@ def detect_transitions(accuracy_series,
     if len(channels) >= 2:
         ch_cps = detect_channel_changepoints(channels)
         result["convergence"] = test_convergence_permutation(
-            ch_cps, max_gap=convergence_max_gap
+            ch_cps, max_gap=convergence_max_gap, n_trials=len(acc)
         )
     else:
         result["convergence"] = None

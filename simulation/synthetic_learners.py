@@ -225,6 +225,71 @@ def generate_unstable(n_trials=100, low=0.45, high=0.85,
     }
 
 
+def generate_power_law(n_trials=100, base=0.50, ceiling=0.85,
+                       exponent=0.3, noise=0.10, seed=None):
+    """
+    adversarial: power-law learning curve. NOT in the model family
+    (sigmoid, step, HMM). tests whether classifier handles out-of-family data.
+
+    accuracy(t) = base + (ceiling - base) * (t/n)^exponent + noise
+    """
+    rng = np.random.default_rng(seed)
+    t = np.arange(n_trials, dtype=float)
+    signal = base + (ceiling - base) * (t / n_trials) ** exponent
+    acc = signal + rng.normal(0, noise, n_trials)
+    acc = np.clip(acc, 0, 1)
+
+    conf = signal * 10 + rng.normal(0, 0.5, n_trials)
+    conf = np.clip(conf, 1, 10)
+
+    rt = 2000 - 800 * signal + rng.normal(0, 150, n_trials)
+    rt = np.clip(rt, 300, 5000)
+
+    transfer_acc = ceiling - 0.10 + rng.normal(0, noise, 30)
+    transfer_acc = np.clip(transfer_acc, 0, 1)
+
+    return {
+        "accuracy": acc, "confidence": conf, "rt": rt, "transfer": transfer_acc,
+        "ground_truth": "gradual",  # power-law is still gradual learning
+        "params": {"base": base, "ceiling": ceiling, "exponent": exponent, "noise": noise},
+    }
+
+
+def generate_double_sigmoid(n_trials=100, base=0.45, mid1=0.65, ceiling=0.90,
+                             transition1=30, transition2=70,
+                             noise=0.10, seed=None):
+    """
+    adversarial: two-stage learning (e.g., learn chunks then learn rule).
+    NOT in the model family (single sigmoid, single step).
+    should ideally be classified as abrupt if both transitions are sharp,
+    or gradual if both are slow.
+    """
+    rng = np.random.default_rng(seed)
+    t = np.arange(n_trials, dtype=float)
+
+    sig1 = expit(0.5 * (t - transition1))
+    sig2 = expit(0.5 * (t - transition2))
+    signal = base + (mid1 - base) * sig1 + (ceiling - mid1) * sig2
+    acc = signal + rng.normal(0, noise, n_trials)
+    acc = np.clip(acc, 0, 1)
+
+    conf = signal * 10 + rng.normal(0, 0.5, n_trials)
+    conf = np.clip(conf, 1, 10)
+
+    rt = 2000 - 800 * signal + rng.normal(0, 150, n_trials)
+    rt = np.clip(rt, 300, 5000)
+
+    transfer_acc = ceiling - 0.05 + rng.normal(0, noise, 30)
+    transfer_acc = np.clip(transfer_acc, 0, 1)
+
+    return {
+        "accuracy": acc, "confidence": conf, "rt": rt, "transfer": transfer_acc,
+        "ground_truth": "abrupt",  # two-stage is still a transition-containing trajectory
+        "params": {"base": base, "mid1": mid1, "ceiling": ceiling,
+                   "t1": transition1, "t2": transition2, "noise": noise},
+    }
+
+
 def generate_cohort(n_per_type=20, n_trials=100, seed=42):
     """
     generate a balanced cohort with known ground truth.

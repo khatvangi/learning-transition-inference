@@ -69,8 +69,13 @@ def _auto_penalty(algo, arr, min_size):
     """
     conservative penalty: finds only major mean-shifts, not noise.
 
-    uses the elbow method: sweep penalties from low to high,
-    find where the number of changepoints stabilizes at a small number.
+    design choice: caps at 2 changepoints. most learning curves have
+    0–2 real transitions (pre-learning, transition, post-learning).
+    detecting 3+ changepoints in noisy behavioral data usually means
+    over-segmentation. if you need to detect multi-regime switching,
+    use the HMM model in model_compare.py instead.
+
+    method: sweep BIC-scaled penalties, find smallest where n_cp <= 2.
     """
     n = len(arr)
     signal_range = float(arr.max() - arr.min())

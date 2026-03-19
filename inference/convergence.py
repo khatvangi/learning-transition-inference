@@ -116,16 +116,22 @@ def test_convergence(channel_changepoints, max_gap=5):
     }
 
 
-def test_convergence_permutation(channel_changepoints, max_gap=5, n_perm=5000):
+def test_convergence_permutation(channel_changepoints, max_gap=5, n_perm=5000,
+                                  n_trials=None):
     """
     permutation test: is the observed convergence better than expected
     by chance?
 
-    randomly shifts each channel's changepoint within the trial range,
-    recomputes convergence score, and estimates a p-value.
+    randomly places each channel's changepoint uniformly within the
+    trial range, recomputes convergence score, and estimates a p-value.
 
-    this is the correct test for P4 — it replaces the arbitrary
-    threshold approach in the original code.
+    args:
+        channel_changepoints: dict of {channel_name: [changepoint_indices]}
+        max_gap: max distance for convergence
+        n_perm: number of permutations
+        n_trials: total number of trials in the experiment. if None,
+                  estimated as max(all_changepoints) + 20. providing the
+                  actual trial count avoids bias from data-dependent range.
     """
     result = test_convergence(channel_changepoints, max_gap=max_gap)
 
@@ -135,11 +141,14 @@ def test_convergence_permutation(channel_changepoints, max_gap=5, n_perm=5000):
 
     observed_score = result["convergence_score"]
 
-    # determine trial range for permutation
+    # null range: use actual trial count if provided (avoids bias)
     timing = result["channel_timing"]
     all_cps = list(timing.values())
-    # assume changepoints could be anywhere in 0..max_cp*2
-    trial_range = max(all_cps) * 2 if all_cps else 100
+    if n_trials is not None:
+        trial_range = n_trials
+    else:
+        # fallback: estimate from data (add buffer to avoid tight range)
+        trial_range = max(all_cps) + 20 if all_cps else 100
 
     null_scores = []
     n_channels = len(timing)

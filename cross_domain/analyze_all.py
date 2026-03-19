@@ -130,14 +130,12 @@ def analyze_mouse_maze():
             continue
 
         # sliding window home-run rate (window=15 bouts)
+        # single smoothing only — inference module applies its own Ψ smoothing
         window = min(15, len(has_hr) // 4)
         kernel = np.ones(window) / window
         hr_rate = np.convolve(has_hr, kernel, mode="same")
 
-        # smooth a bit more for stability
-        hrd_smooth = gaussian_filter1d(hr_rate, sigma=2)
-
-        result = detect_transitions(hrd_smooth)
+        result = detect_transitions(hr_rate)
 
         label = result["classification"]["label"]
         conf = result["classification"]["confidence"]
