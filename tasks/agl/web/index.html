@@ -403,9 +403,9 @@
       if (g === 'b') return 'medium';
       if (g === 'c') return 'hard';
 
-      // no param: random assignment
-      const conditions = ['easy', 'medium', 'hard'];
-      return conditions[Math.floor(Math.random() * 3)];
+      // no param: random assignment (medium + hard only)
+      const conditions = ['medium', 'hard'];
+      return conditions[Math.floor(Math.random() * 2)];
     }
 
     // ─── screen management ───
