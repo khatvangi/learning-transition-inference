@@ -389,11 +389,21 @@
     let buttonsEnabled = true;
 
     // ─── get condition from URL or random assignment ───
+    // supports both ?condition=easy and ?group=a (blinded)
     function getCondition() {
       const params = new URLSearchParams(window.location.search);
+
+      // direct condition (for testing)
       const c = params.get('condition');
       if (c && ['easy', 'medium', 'hard'].includes(c)) return c;
-      // random assignment
+
+      // blinded group assignment (for students)
+      const g = (params.get('group') || '').toLowerCase();
+      if (g === 'a') return 'easy';
+      if (g === 'b') return 'medium';
+      if (g === 'c') return 'hard';
+
+      // no param: random assignment
       const conditions = ['easy', 'medium', 'hard'];
       return conditions[Math.floor(Math.random() * 3)];
     }

@@ -23,9 +23,9 @@ The task is similar to a puzzle game. There are no right or wrong answers expect
 
 Go to one of the following links (your instructor will tell you which one):
 
-- **Link A**: https://thebeakers.com/study/?condition=easy
-- **Link B**: https://thebeakers.com/study/?condition=medium
-- **Link C**: https://thebeakers.com/study/?condition=hard
+- **Group A**: https://thebeakers.com/study/?group=a
+- **Group B**: https://thebeakers.com/study/?group=b
+- **Group C**: https://thebeakers.com/study/?group=c
 
 Complete the study in one sitting on a desktop or laptop computer (recommended) with a stable internet connection. Please keep the browser tab in the foreground during the study phase.
 
