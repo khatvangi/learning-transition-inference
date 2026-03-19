@@ -9,9 +9,9 @@
 
 You are being asked to take part in a research study. The information in this document should help you to decide if you would like to participate. The sections in this Overview provide the basic information about the study. More detailed information is provided in the remainder of the document.
 
-**Study Staff**: This study is being led by [Principal Investigator Name] who is a [Title] in the [Department] at [University]. This person is called the Principal Investigator. Other approved research staff may act on behalf of the Principal Investigator.
+**Study Staff**: This study is being led by Kiran Boggavarapu who is a faculty member in the Department of Chemistry and Physics at McNeese State University. This person is called the Principal Investigator. Other approved research staff may act on behalf of the Principal Investigator.
 
-**Study Details**: This study is being conducted at [University, Department]. The purpose of the study is to investigate how people learn to recognize hidden patterns in letter sequences, and whether moments of sudden understanding have measurable signatures in behavior. Participation in this study involves completing a 25-30 minute online task through your web browser. The task involves viewing letter sequences, deciding whether each follows a hidden rule, and periodically rating your confidence.
+**Study Details**: This study is being conducted at McNeese State University, Department of Chemistry and Physics. The purpose of the study is to investigate how people learn to recognize hidden patterns in letter sequences, and whether moments of sudden understanding have measurable signatures in behavior. Participation in this study involves completing a 25-30 minute online task through your web browser. The task involves viewing letter sequences, deciding whether each follows a hidden rule, and periodically rating your confidence.
 
 **Participants**: You are being asked to take part because you are a student or adult (18+) with normal or corrected-to-normal vision and fluent English.
 
@@ -50,9 +50,9 @@ It is possible, although unlikely, that unauthorized individuals could gain acce
 
 ### Contact Information
 
-If you have any questions, concerns or complaints about this study, contact the Principal Investigator [PI Name] at [phone] or [email].
+If you have any questions, concerns or complaints about this study, contact the Principal Investigator Kiran Boggavarapu at (337) 475-5768 or kiran@mcneese.edu.
 
-If you have questions about your rights, complaints, or issues as a person taking part in this study, call the [University] IRB at [phone] or contact by email at [IRB email].
+If you have questions about your rights, complaints, or issues as a person taking part in this study, contact the McNeese State University Human Subjects Institutional Review Board (HSIRB) at irbchair@mcneese.edu.
 
 We may publish what we learn from this study. If we do, we will not let anyone know your name. We will not publish anything else that would let people know who you are. You can print a copy of this consent form for your records.
 
