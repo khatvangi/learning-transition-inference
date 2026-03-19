@@ -66,7 +66,8 @@ docs/
   EXPERIMENT_DESIGN.md         AGL protocol, transition-signature predictions (S1–S4)
   LITERATURE_REVIEW.md         cross-domain literature (AGL, insight, grokking, animal learning)
 
-ept_theory_docs/               EPT theoretical framework (propositions, kinetics, evidence)
+ept_theory_docs/               SEPARATE PROJECT: EPT theoretical framework from Paper 1
+                               (not supported by or required for this repo's inference pipeline)
 recruitment/                   consent form (Common Rule), flyer, Prolific description
 scispace_data/                 literature search (230 files, bibliographic metadata)
 ```
@@ -225,7 +226,9 @@ This project deliberately separates measurement from interpretation:
 | Persistence | Post-transition performance holds after perturbation, controlling for ability |
 | Convergence | Multiple measurement channels show changepoints at the same time |
 
-We avoid "phase transition," "hysteresis," and "universality" in their strict physical senses. The EPT theoretical framework (in `ept_theory_docs/`) provides one interpretation of these signatures; it is not the measurement layer.
+We avoid "phase transition," "hysteresis," and "universality" in their strict physical senses.
+
+**Note on `ept_theory_docs/`**: This directory contains theoretical documents from a separate project (EPT Paper 1, targeting Nature Human Behaviour) that proposes insight is a first-order phase transition. That theoretical claim is independent of this repo's inference pipeline. The inference module works without any commitment to EPT theory — it detects transition signatures regardless of their physical interpretation. The theory docs are included for context only.
 
 ## Dependencies
 
