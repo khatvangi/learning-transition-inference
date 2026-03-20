@@ -155,9 +155,57 @@ def _interpolate_confidence(conf_trajectory, n_trials):
 # analysis: run inference + AGL-specific tests
 # ─────────────────────────────────────────────
 
+def check_quality(p):
+    """
+    pre-registered exclusion criteria (applied before analysis).
+    returns (pass, flags) tuple.
+
+    exclusion if ANY of:
+      - failed all catch trials (0/3 correct on obvious items)
+      - >20% responses faster than 500ms (not reading strings)
+      - >80% same response (button mashing one side)
+      - longest same-response streak > 20 trials
+    """
+    qf = p.get("quality_flags", {})
+    flags = qf.get("flags", [])
+
+    # for older data without quality_flags, compute from trials
+    if not qf:
+        trials = p.get("trials", [])
+        rts = [t["rt_ms"] for t in trials]
+        responses = [t["response"] for t in trials]
+        catches = [t for t in trials if t.get("is_catch")]
+
+        fast_rate = sum(1 for r in rts if r < 500) / max(len(rts), 1)
+        n_gram = sum(1 for r in responses if r == "grammatical")
+        bias = max(n_gram, len(responses) - n_gram) / max(len(responses), 1)
+
+        max_streak = 1
+        streak = 1
+        for i in range(1, len(responses)):
+            if responses[i] == responses[i-1]:
+                streak += 1
+                max_streak = max(max_streak, streak)
+            else:
+                streak = 1
+
+        catch_correct = sum(1 for t in catches if t.get("correct")) if catches else None
+
+        if fast_rate > 0.20: flags.append("high_fast_rate")
+        if bias > 0.80: flags.append("response_bias")
+        if max_streak > 20: flags.append("long_streak")
+        if catches and catch_correct == 0: flags.append("failed_all_catches")
+
+    return len(flags) == 0, flags
+
+
 def analyze_cohort(participants):
     """
     run full analysis on all participants.
+
+    quality control: participants are flagged by pre-registered criteria
+    (catch trials, fast responses, response bias, streaks).
+    results reported both with and without flagged participants.
 
     analysis structure:
       S1. per-participant transition detection (via inference module)
@@ -165,12 +213,24 @@ def analyze_cohort(participants):
       S3. persistence: transfer accuracy controlling for learning performance
       S4. convergence: aha self-report vs inference-detected changepoints
     """
+    # quality screening
+    n_flagged = 0
+    for p in participants:
+        passed, flags = check_quality(p)
+        if not passed:
+            n_flagged += 1
+            pid = p.get("participant_id", "?")[:12]
+            print(f"  FLAGGED {pid}: {', '.join(flags)}")
+
     # convert to canonical format
     canonical = []
     metadata = []
     for p in participants:
         c = participant_to_canonical(p)
         if c is not None:
+            passed, flags = check_quality(p)
+            c["metadata"]["quality_passed"] = passed
+            c["metadata"]["quality_flags"] = flags
             canonical.append(c)
             metadata.append(c["metadata"])
 

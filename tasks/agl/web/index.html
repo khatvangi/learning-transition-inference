@@ -476,10 +476,19 @@
           const pct = (experiment.currentTrialIndex / total) * 100;
           document.getElementById('progress').style.width = pct + '%';
 
-          // enable buttons
-          buttonsEnabled = true;
-          document.getElementById('btn-yes').disabled = false;
-          document.getElementById('btn-no').disabled = false;
+          // disable buttons for minimum display time (prevents mashing)
+          buttonsEnabled = false;
+          document.getElementById('btn-yes').disabled = true;
+          document.getElementById('btn-no').disabled = true;
+          document.getElementById('btn-yes').style.opacity = '0.4';
+          document.getElementById('btn-no').style.opacity = '0.4';
+          setTimeout(() => {
+            buttonsEnabled = true;
+            document.getElementById('btn-yes').disabled = false;
+            document.getElementById('btn-no').disabled = false;
+            document.getElementById('btn-yes').style.opacity = '1';
+            document.getElementById('btn-no').style.opacity = '1';
+          }, data.minResponseTime || 500);
 
           // check if confidence needed AFTER this trial
           pendingConfidence = data.needsConfidence;
