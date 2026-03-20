@@ -372,10 +372,25 @@
     <!-- complete -->
     <div id="screen-complete" class="screen">
       <h1>Thank you!</h1>
-      <p>Your data has been saved. Here's your completion code:</p>
+      <p>Your data has been saved.</p>
       <div class="completion-code" id="completion-code"></div>
-      <p>If you're on Prolific, enter this code to confirm your participation.</p>
-      <p style="font-size:0.85rem;margin-top:1rem">Your responses help us understand how people discover hidden structures in sequences. This research investigates whether learning moments have measurable signatures in behavior.</p>
+
+      <div style="background:var(--surface);border-radius:var(--radius);padding:1.5rem;margin-top:1rem;">
+        <h2 style="margin-bottom:0.8rem;">Claim extra credit</h2>
+        <p style="margin-bottom:1rem;">Enter your name below to record your participation. This is stored <strong style="color:var(--text)">separately</strong> from your responses — your answers cannot be linked to your identity.</p>
+        <div class="form-group">
+          <input type="text" id="credit-name" placeholder="Your full name (e.g., Jane Smith)" style="font-family:inherit;font-size:1rem;padding:0.7rem;background:var(--bg);color:var(--text);border:1px solid #3a3f52;border-radius:8px;">
+        </div>
+        <div class="form-group" style="margin-top:0.5rem;">
+          <input type="text" id="credit-student-id" placeholder="Student ID (optional)" style="font-family:inherit;font-size:1rem;padding:0.7rem;background:var(--bg);color:var(--text);border:1px solid #3a3f52;border-radius:8px;">
+        </div>
+        <div class="btn-group" style="margin-top:1rem;">
+          <button class="btn btn-primary" id="credit-btn" onclick="submitCredit()">Record my participation</button>
+        </div>
+        <p id="credit-status" style="text-align:center;font-size:0.9rem;margin-top:0.5rem;display:none;"></p>
+      </div>
+
+      <p style="font-size:0.85rem;margin-top:1rem;color:var(--text-dim)">Your responses help us understand how people discover hidden structures in sequences.</p>
     </div>
   </div>
 
@@ -537,6 +552,45 @@
           });
           break;
       }
+    }
+
+    // ─── extra credit claim (separate from experiment data) ───
+    async function submitCredit() {
+      const name = document.getElementById('credit-name').value.trim();
+      const studentId = document.getElementById('credit-student-id').value.trim();
+      const status = document.getElementById('credit-status');
+
+      if (!name) {
+        alert('Please enter your name to record participation.');
+        return;
+      }
+
+      const code = document.getElementById('completion-code').textContent;
+      try {
+        const resp = await fetch('https://thebeakers.com/api/credit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: name,
+            student_id: studentId,
+            completion_code: code,
+            timestamp: new Date().toISOString(),
+          }),
+        });
+        if (resp.ok) {
+          status.textContent = 'Your participation has been recorded. No email needed.';
+          status.style.color = 'var(--correct)';
+          document.getElementById('credit-btn').disabled = true;
+          document.getElementById('credit-btn').textContent = 'Recorded';
+        } else {
+          status.textContent = 'Error saving. Please email your completion code to kiran@mcneese.edu.';
+          status.style.color = 'var(--incorrect)';
+        }
+      } catch (e) {
+        status.textContent = 'Connection error. Please email your completion code to kiran@mcneese.edu.';
+        status.style.color = 'var(--incorrect)';
+      }
+      status.style.display = 'block';
     }
 
     // ─── response ───
