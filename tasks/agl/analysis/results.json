@@ -1,0 +1,39 @@
+{
+  "n_participants": 7,
+  "classification_summary": {
+    "n": 7,
+    "label_counts": {
+      "unstable": 6,
+      "non_learner": 1
+    },
+    "label_fractions": {
+      "unstable": 0.8571428571428571,
+      "non_learner": 0.14285714285714285
+    },
+    "abrupt_fraction": 0,
+    "persistence_rate": 1.0,
+    "mean_convergence_score": 0.09523809523809523
+  },
+  "dose_response": {
+    "easy": {
+      "n": 1,
+      "n_abrupt": 0,
+      "abrupt_rate": 0.0
+    },
+    "hard": {
+      "n": 2,
+      "n_abrupt": 0,
+      "abrupt_rate": 0.0
+    },
+    "medium": {
+      "n": 4,
+      "n_abrupt": 0,
+      "abrupt_rate": 0.0
+    }
+  },
+  "persistence": null,
+  "aha_alignment": {
+    "n": 3,
+    "mean_distance": 35.666666666666664
+  }
+}

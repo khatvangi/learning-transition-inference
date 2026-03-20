@@ -338,8 +338,8 @@
         </select>
       </div>
       <div class="form-group">
-        <label>If you noticed any pattern, describe it:</label>
-        <textarea id="debrief-strategy" placeholder="e.g., 'strings always end with R...'"></textarea>
+        <label>Describe any pattern you noticed (required):</label>
+        <textarea id="debrief-strategy" placeholder="e.g., 'strings always end with R...' or 'I couldn't find a pattern'" required></textarea>
       </div>
       <div class="form-group">
         <label>How difficult was the task? (1=very easy, 10=very hard)</label>
@@ -549,9 +549,20 @@
     }
 
     function submitDebrief() {
+      // validate required fields
+      const strategy = document.getElementById('debrief-strategy').value.trim();
+      const figured = document.getElementById('debrief-figured').value;
+      if (!strategy) {
+        alert('Please describe any pattern you noticed (even if you couldn\'t find one).');
+        return;
+      }
+      if (!figured) {
+        alert('Please select whether you figured out the pattern.');
+        return;
+      }
       const data = {
-        figured_out: document.getElementById('debrief-figured').value,
-        strategy: document.getElementById('debrief-strategy').value,
+        figured_out: figured,
+        strategy: strategy,
         difficulty: parseInt(document.getElementById('debrief-difficulty').value),
         age: parseInt(document.getElementById('debrief-age').value) || null,
       };
